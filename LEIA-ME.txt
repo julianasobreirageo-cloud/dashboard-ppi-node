@@ -1,0 +1,50 @@
+PAINEL EXECUTIVO PPI — REACT
+
+1. Instale o Python 3, se necessário.
+2. Dê dois cliques em INICIAR_DASHBOARD.bat.
+3. O painel abrirá automaticamente no navegador.
+
+Na primeira execução, o iniciador cria um ambiente próprio e instala o Selenium
+automaticamente. É necessário estar conectado à internet nessa primeira vez.
+
+A interface foi construída em React. O Python funciona apenas como servidor
+local e executa a rotina existente de atualização dos PDFs.
+
+Na Central de PDFs:
+- "Validar catálogo" confere os 144 registros sem acessar o portal.
+- "Atualizar agora" consulta o portal PPI e salva os documentos novos.
+
+Os PDFs validados acompanham o painel na pasta dados e continuam disponíveis
+mesmo quando o portal estiver fora do ar.
+
+A página "Visão executiva" reúne todos os gráficos da versão anterior em uma
+única sequência: panorama, mapa, cobertura, rankings, investimentos, tabela e
+comparativos regionais. A opção "Análise territorial" mantém uma visualização
+dedicada dos mesmos indicadores geográficos e financeiros.
+
+RESUMO COM INTELIGÊNCIA ARTIFICIAL
+- Clique em "Resumo com IA" no topo do painel.
+- Informe uma chave da API OpenAI e clique em "Gerar resumo com IA".
+- A chave é usada apenas para a solicitação e não é gravada pelo dashboard.
+- O resumo analisa os 144 projetos, valores, status, regiões e lacunas de dados.
+
+Crie ou consulte sua chave em https://platform.openai.com/api-keys
+ARQUITETURA ATUAL — NODE.JS + REACT
+===================================
+
+O dashboard foi migrado integralmente para JavaScript moderno:
+- Interface: React + Vite
+- Servidor local e APIs: Node.js
+- Atualização automatizada: Selenium WebDriver para Node.js
+- Leitura da base compactada: biblioteca ZIP do ecossistema Node
+
+Não é necessário instalar Python, pip, ambiente virtual ou Selenium para Python.
+Para iniciar, execute INICIAR_DASHBOARD.bat.
+
+PUBLICAÇÃO TEMPORÁRIA NA INTERNET
+=================================
+
+Execute PUBLICAR_DASHBOARD_NA_INTERNET.bat e aguarde o endereço terminado
+em trycloudflare.com. Copie esse endereço para compartilhar o painel.
+O endereço funciona somente enquanto o servidor Node e a janela do
+Cloudflare permanecerem abertos no computador.

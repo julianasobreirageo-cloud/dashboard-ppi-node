@@ -1,0 +1,5 @@
+node_modules/
+backup_antes_inclusao_*/
+cloudflared.exe
+
+dados/base_ppi_144_projetos.zip

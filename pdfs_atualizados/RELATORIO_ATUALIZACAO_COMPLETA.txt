@@ -1,0 +1,21 @@
+[22/121] Pesquisando Iluminação Pública – Caruaru (PE)
+[29/121] Pesquisando Iluminação Pública – Corumbá (MS)
+[32/121] Pesquisando Iluminação Pública – Curitiba (PR)
+[48/121] Pesquisando Iluminação Pública – Macapá (AP)
+[51/121] Pesquisando Iluminação Pública – Mogi das Cruzes (SP)
+[63/121] Pesquisando Iluminação Pública – Petrolina (PE)
+[73/121] Pesquisando Iluminação Pública – Senhor do Bonfim (BA)
+[77/121] Pesquisando CBTU/MG: Metrô da Região Metropolitana de Belo Horizonte/MG
+[82/121] Pesquisando Resíduos Sólidos Urbanos (RSU) – Consórcio CONSUD
+[88/121] Pesquisando Resíduos Sólidos Urbanos (RSU) – Consórcio Mogiana
+[110/121] Pesquisando Iluminação Pública – São José do Rio Pardo (SP)
+[115/121] Pesquisando Iluminação Pública – Timóteo (MG)
+[117/121] Pesquisando Iluminação Pública – Valença (BA)
+[118/121] Pesquisando Iluminação Pública – Vitória de Santo Antão (PE)
+[119/121] Pesquisando Saneamento – CASAL (AL)
+[120/121] Pesquisando Saneamento Básico – Estado do Pará – Bloco C
+[121/121] Pesquisando Saneamento Básico – Estado do Pará – Bloco D
+
+CONCLUÍDO: 0 PDFs substituídos; 1 páginas localizadas; 0 fases alteradas com evidência alta.
+Excel: não atualizado — O argumento 'C:\Users\User\Desktop\DASHBOARD_PPI_NODE_COMPLETO\DASHBOARD_PPI_NODE_COMPLETO_AUDITADO_15_08_2026\atualizar-excel-dashboard.ps1' para o par�metro -File n�o existe. Forne�a o caminho para um arquivo '.ps1' existente como um argumento para o par�metro -File.
+Fases: {"Leilão de Projeto":20,"Contrato":17,"Estudo":23,"A confirmar no PPI":49,"Consulta Pública":9,"Edital":3}

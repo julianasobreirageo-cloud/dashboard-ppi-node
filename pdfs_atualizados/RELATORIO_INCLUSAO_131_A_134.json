@@ -1,0 +1,81 @@
+{
+  "data": "2026-08-16T00:02:43.441Z",
+  "totalProjetos": 134,
+  "totalPdfs": 134,
+  "projetosIncluidos": [
+    {
+      "numero": 131,
+      "categoria": "Saneamento",
+      "projeto": "Distribuição de água e tratamento de esgoto - Estado do Rio de Janeiro - Blocos 1, 2 e 4",
+      "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-rio-de-janeiro-blocos-1-2-e-4/",
+      "arquivo": "131_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Estado_do_Rio_de_Janeiro_Blocos_1_2_e_4.pdf",
+      "uf": "RJ",
+      "municipio": "Estado do Rio de Janeiro - Blocos 1, 2 e 4",
+      "etapa": "Contrato",
+      "status": "Concluído",
+      "modalidade": "Concessão",
+      "capex": 27300000000,
+      "opex": null,
+      "populacao": 11042000,
+      "situacao": "Projeto leiloado em 30/04/2021; os blocos 1 e 4 foram vencidos pelo consórcio AEGEA Saneamento e Participações S.A. e o bloco 2 pela Iguá Saneamento.",
+      "regiao": "Sudeste"
+    },
+    {
+      "numero": 132,
+      "categoria": "Saneamento",
+      "projeto": "Distribuição de água e tratamento de esgoto - Estado do Amapá",
+      "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-amapa/",
+      "arquivo": "132_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Estado_do_Amapa.pdf",
+      "uf": "AP",
+      "municipio": "Estado do Amapá",
+      "etapa": "Contrato",
+      "status": "Concluído",
+      "modalidade": "Concessão",
+      "capex": 3000000000,
+      "opex": null,
+      "populacao": 734000,
+      "situacao": "Projeto leiloado em 02/09/2021, tendo como vencedor o Consórcio Marco Zero (Equatorial e SAM Ambiental).",
+      "regiao": "Norte"
+    },
+    {
+      "numero": 133,
+      "categoria": "Saneamento",
+      "projeto": "Distribuição de água e tratamento de esgoto - Bloco B - Estado de Alagoas (Zona da Mata e Agreste)",
+      "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-bloco-b-estado-de-alagoas-zona-da-mata-e-agreste/",
+      "arquivo": "133_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Bloco_B_Estado_de_Alagoas_Zona_da_Mata_e_Agreste.pdf",
+      "uf": "AL",
+      "municipio": "Zona da Mata e Agreste - Alagoas",
+      "etapa": "Contrato",
+      "status": "Concluído",
+      "modalidade": "Concessão",
+      "capex": 2900000000,
+      "opex": null,
+      "populacao": 759900,
+      "situacao": "Projeto leiloado em 13/12/2021, tendo como vencedor o Grupo Allonda Ambiental Participações S.A.",
+      "regiao": "Nordeste"
+    },
+    {
+      "numero": 134,
+      "categoria": "Saneamento",
+      "projeto": "Distribuição de água e tratamento de esgoto - Bloco A - Estado de Alagoas (RM Alagoas)",
+      "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-bloco-a-estado-de-alagoas-rm-alagoas/",
+      "arquivo": "134_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Bloco_A_Estado_de_Alagoas_RM_Alagoas.pdf",
+      "uf": "AL",
+      "municipio": "Região Metropolitana de Alagoas",
+      "etapa": "Contrato",
+      "status": "Concluído",
+      "modalidade": "Concessão",
+      "capex": 2600000000,
+      "opex": null,
+      "populacao": 1448000,
+      "situacao": "Projeto leiloado em 30/09/2020, tendo como vencedor o Grupo BRK Ambiental Participações S.A.",
+      "regiao": "Nordeste"
+    }
+  ],
+  "arquivosDuplicadosRecebidos": [
+    "4b2fa6c9-bdd2-494b-ae9f-fc4772c03cb2.pdf",
+    "6a90e13d-af3d-47af-ab6a-34612a223519.pdf",
+    "ece8be22-61d9-464e-9f1e-7261c2d593eb.pdf"
+  ],
+  "backup": "C:\\Users\\User\\Desktop\\DASHBOARD_PPI_NODE_COMPLETO\\DASHBOARD_PPI_NODE_COMPLETO_AUDITADO_15_08_2026\\backup_antes_inclusao_134_20260816000243"
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "arquivo": "001_Iluminacao_Publica_Iluminacao_Publica_Alagoinhas_BA.pdf",
+    "tamanho": 6100813,
+    "sha256": "b205f3bc27e86e8024bbdfa4e35bf73ae8e913102447b7dfe8587c2f8318d31d"
+  },
+  {
+    "arquivo": "002_Iluminacao_Publica_Iluminacao_Publica_Aracaju_SE.pdf",
+    "tamanho": 5331764,
+    "sha256": "b76f1495dd25b6bcb1295f811ef55afaf7d84d7f78215351d4e34b9d26f367d5"
+  },
+  {
+    "arquivo": "003_Iluminacao_Publica_Iluminacao_Publica_Aracatuba_SP.pdf",
+    "tamanho": 5381717,
+    "sha256": "087220846c9c207b75e61886a00487d4bf60e8e4bbdddf30ce6ae6d48a8316ee"
+  },
+  {
+    "arquivo": "004_Iluminacao_Publica_Iluminacao_Publica_Araguari_MG.pdf",
+    "tamanho": 3263469,
+    "sha256": "f6425a8321a131a76ce531269acd3dc17760236edd77a33a2a1798b3a62416a5"
+  },
+  {
+    "arquivo": "005_Iluminacao_Publica_Iluminacao_Publica_Araripina_PE.pdf",
+    "tamanho": 1027272,
+    "sha256": "ad695e7e6f9a3a9a33b0341b421124ce0efb5eeeb27ca8709cbc1b424f836cdf"
+  },
+  {
+    "arquivo": "006_Iluminacao_Publica_Iluminacao_Publica_Ariquemes_RO.pdf",
+    "tamanho": 5467602,
+    "sha256": "53e83b7d24df3784ba13b2ee266cb20c97867b2995338e8739ce10cbbb118bff"
+  },
+  {
+    "arquivo": "007_Iluminacao_Publica_Iluminacao_Publica_Aruja_SP.pdf",
+    "tamanho": 1731573,
+    "sha256": "9a4b793cfee677a556cfcec32dd71f54a9e2262a068570c067c11f1b29990d81"
+  },
+  {
+    "arquivo": "008_Iluminacao_Publica_Iluminacao_Publica_Atibaia_SP.pdf",
+    "tamanho": 1071454,
+    "sha256": "6a4b8f6c79aad3115945a7c7acc9483ef7507ad3a5870292ed5c8ff5fe74e579"
+  },
+  {
+    "arquivo": "009_Iluminacao_Publica_Iluminacao_Publica_Barbalha_CE.pdf",
+    "tamanho": 1063039,
+    "sha256": "9bcd263f5c4e46ba99d31a750b0b6b34900e95e27a7ad4e42cb454a120d6b465"
+  },
+  {
+    "arquivo": "010_Iluminacao_Publica_Iluminacao_Publica_Barra_dos_Coqueiros_SE.pdf",
+    "tamanho": 1093095,
+    "sha256": "e2bea9a96c655460fcf8abb0bedd0fa416c5497cc8f227d046d7466ec88ed372"
+  },
+  {
+    "arquivo": "011_Iluminacao_Publica_Iluminacao_Publica_Barreiras_BA.pdf",
+    "tamanho": 5602686,
+    "sha256": "df351965a4beb921d538b6517d8725c2bb57e992d870482b7318bf3cb91f311f"
+  },
+  {
+    "arquivo": "012_Iluminacao_Publica_Iluminacao_Publica_Belem_PA.pdf",
+    "tamanho": 5553118,
+    "sha256": "0ab4b5bf8e3346e191b88f048e24dee3bc00e471ecc956440dba3bdc9aca34a6"
+  },
+  {
+    "arquivo": "013_Iluminacao_Publica_Iluminacao_Publica_Cachoeiro_de_Itapemirim_ES.pdf",
+    "tamanho": 5903816,
+    "sha256": "40311b2d806aa5ac33fc47abed8a5b14191be2e354f506add1c3e82132a3a023"
+  },
+  {
+    "arquivo": "014_Iluminacao_Publica_Iluminacao_Publica_Caico_RN.pdf",
+    "tamanho": 1064515,
+    "sha256": "ce835b0d7c5af252e6a5ca76a50778b16a2a98d04c9b5e891cdc3eab54126c54"
+  },
+  {
+    "arquivo": "015_Iluminacao_Publica_Iluminacao_Publica_Cajamar_SP.pdf",
+    "tamanho": 1065530,
+    "sha256": "9e373d46c4954d7d275a1aa0d70337db8d44a616406bc1f0f680e7f42ff1f61b"
+  },
+  {
+    "arquivo": "016_Iluminacao_Publica_Iluminacao_Publica_Cajazeiras_PB.pdf",
+    "tamanho": 1070433,
+    "sha256": "d8827df4a742654942bf6b42ed020b1124289caeb48ab1285585907000d791e2"
+  },
+  {
+    "arquivo": "017_Iluminacao_Publica_Iluminacao_Publica_Camacari_BA.pdf",
+    "tamanho": 1236905,
+    "sha256": "745ff0ebc87a8e2d83cecbb19695834294dc356b6b1a277448671c7e4c08099e"
+  },
+  {
+    "arquivo": "018_Iluminacao_Publica_Iluminacao_Publica_Cambe_PR.pdf",
+    "tamanho": 1064335,
+    "sha256": "ba636906dcf18a9d946d52f6731a22bbd1a8693ad7b0a0d49899204d71fc5256"
+  },
+  {
+    "arquivo": "019_Iluminacao_Publica_Iluminacao_Publica_Campina_Grande_PB.pdf",
+    "tamanho": 1066641,
+    "sha256": "baae64ac81ef565c563ae8986493d77fae8bbe18a671f3dc12c103e2d0453f9a"
+  },
+  {
+    "arquivo": "020_Iluminacao_Publica_Iluminacao_Publica_Campinas_SP.pdf",
+    "tamanho": 5900299,
+    "sha256": "a88f8ef232d1146ccba760c094fddb4e0b8b7637ad73711008b69a8a5fa58189"
+  },
+  {
+    "arquivo": "021_Iluminacao_Publica_Iluminacao_Publica_Canoas_RS.pdf",
+    "tamanho": 5117673,
+    "sha256": "ac40d36147b867e0b725b4ebf0b9a98627fc50259e51ed50c2fe5d3cb6b97597"
+  },
+  {
+    "arquivo": "022_Iluminacao_Publica_Iluminacao_Publica_Caruaru_PE.pdf",
+    "tamanho": 2264,
+    "sha256": "c4f0cf2fd9855a1060affaa1b8e598a08650cf3da3a76a52ae206f0aaebadca4"
+  },
+  {
+    "arquivo": "023_Iluminacao_Publica_Iluminacao_Publica_Caxias_MA.pdf",
+    "tamanho": 1069123,
+    "sha256": "aa9723d1ee1e9a7528d5ef7335fe6e17e3da442c1cadcb8e46129890cab0b915"
+  },
+  {
+    "arquivo": "024_Iluminacao_Publica_Iluminacao_Publica_Caxias_do_Sul_RS.pdf",
+    "tamanho": 4976779,
+    "sha256": "65df64b8e83e926a717012e513ed2a0b4e429cd0b721c26d5d0f4c3321bee51d"
+  },
+  {
+    "arquivo": "025_Iluminacao_Publica_Iluminacao_Publica_Colatina_ES.pdf",
+    "tamanho": 1278637,
+    "sha256": "d57f2d2287f50fe086c7d6b558f1f62ed4d00eaa9d3975da5ce4d53911f928e4"
+  },
+  {
+    "arquivo": "026_Iluminacao_Publica_Iluminacao_Publica_Consorcio_CDS_Litoral_Sul_BA.pdf",
+    "tamanho": 3203086,
+    "sha256": "6df71f580eab10c17f5a9db2d912bb178382018e6ecdc25610b1d15909105021"
+  },
+  {
+    "arquivo": "027_Iluminacao_Publica_Iluminacao_Publica_Consorcio_CIMPAJEU_PE.pdf",
+    "tamanho": 3202110,
+    "sha256": "c5a415977abe35b2ad2dae02c002ce277b3e88d5096d93b20eb91989ca235398"
+  },
+  {
+    "arquivo": "028_Iluminacao_Publica_Iluminacao_Publica_Consorcio_CISAMAVI_SC.pdf",
+    "tamanho": 3089962,
+    "sha256": "03c33960ec5db589de67092751674fec79de7295614e72a284173fa23829d357"
+  },
+  {
+    "arquivo": "029_Iluminacao_Publica_Iluminacao_Publica_Corumba_MS.pdf",
+    "tamanho": 5524225,
+    "sha256": "4a733588e3742406e95ccc30607b3f361e5a67845db8b2293ef09731753c8d08"
+  },
+  {
+    "arquivo": "030_Iluminacao_Publica_Iluminacao_Publica_Crato_CE.pdf",
+    "tamanho": 1730458,
+    "sha256": "4e331db91f9b3e61c787fe357ba846ac6bc4d951c91fd529fb7d3c1a7ec9204f"
+  },
+  {
+    "arquivo": "031_Iluminacao_Publica_Iluminacao_Publica_Cuiaba_MT.pdf",
+    "tamanho": 1062387,
+    "sha256": "8bff037281070dc0be13f32c301feb42cc72b1e18de769e20cf35304eb90ef17"
+  },
+  {
+    "arquivo": "032_Iluminacao_Publica_Iluminacao_Publica_Curitiba_PR.pdf",
+    "tamanho": 5682742,
+    "sha256": "5304b5141de6436c1ca3961e6946f7c54d5c2934302c7ae9f0f589c1742670eb"
+  },
+  {
+    "arquivo": "033_Iluminacao_Publica_Iluminacao_Publica_Fazenda_Rio_Grande_PR.pdf",
+    "tamanho": 5469389,
+    "sha256": "765174940d54cb81e1cc59de5bbc145f7c82fb6f05cc05c6efa55a815839e830"
+  },
+  {
+    "arquivo": "034_Iluminacao_Publica_Iluminacao_Publica_Feira_de_Santana_BA.pdf",
+    "tamanho": 5184283,
+    "sha256": "8adecc4c4ba917dbc40ac16f1eccfcadf2c1d8a138daf4109667515b91de51ec"
+  },
+  {
+    "arquivo": "035_Iluminacao_Publica_Iluminacao_Publica_Fernandopolis_SP.pdf",
+    "tamanho": 1068580,
+    "sha256": "8c090c0818530b0471209f20c56e94e3529f5784bf8ef56b88ab81af1edeee45"
+  },
+  {
+    "arquivo": "036_Iluminacao_Publica_Iluminacao_Publica_Foz_do_Iguacu_PR.pdf",
+    "tamanho": 1670450,
+    "sha256": "005dcddda2038a31d41f5cafaa1c7381a3603e525e2641bb62f78c3adf7d0a81"
+  },
+  {
+    "arquivo": "037_Iluminacao_Publica_Iluminacao_Publica_Francisco_Beltrao_PR.pdf",
+    "tamanho": 2975134,
+    "sha256": "e5d46c95f317b055c071959c5f95b6b28763060049da2c1753e2d9f7437ce454"
+  },
+  {
+    "arquivo": "038_Iluminacao_Publica_Iluminacao_Publica_Franco_da_Rocha_SP.pdf",
+    "tamanho": 5266129,
+    "sha256": "03d1dd50baf80be617a75582fbcf460b42ac1f1ec6e98de2a4899d00377f22b2"
+  },
+  {
+    "arquivo": "039_Iluminacao_Publica_Iluminacao_Publica_Gravatai_RS.pdf",
+    "tamanho": 2892956,
+    "sha256": "41ebc30b0f685bbf121c1799d39bf801fee31e4d9514d9d3e4e1b5570886b81f"
+  },
+  {
+    "arquivo": "040_Iluminacao_Publica_Iluminacao_Publica_Ibiuna_SP.pdf",
+    "tamanho": 1746067,
+    "sha256": "f852b868deb677cab61df739ed3bc1d0a674ca76cd5f16d47e2453d28251e344"
+  },
+  {
+    "arquivo": "041_Iluminacao_Publica_Iluminacao_Publica_IP_Joinville_SC.pdf",
+    "tamanho": 2855492,
+    "sha256": "78af6de332427ec3fd833bee044267309506ef05cd65eb2f78771e9e0dc69977"
+  },
+  {
+    "arquivo": "042_Iluminacao_Publica_Iluminacao_Publica_Itanhaem_SP.pdf",
+    "tamanho": 5751735,
+    "sha256": "e98db79617e61581263e3e01a39cc567a7b430f3f677f5a29ad04140f371e77f"
+  },
+  {
+    "arquivo": "043_Iluminacao_Publica_Iluminacao_Publica_Itaperuna_RJ.pdf",
+    "tamanho": 1766236,
+    "sha256": "6cbcddae05cfc02a5c6cbda8793a7f5e476402a6676d2351cf1f10e3ad03e5a1"
+  },
+  {
+    "arquivo": "044_Iluminacao_Publica_Iluminacao_Publica_Itumbiara_GO.pdf",
+    "tamanho": 1737827,
+    "sha256": "bc75e4a35221bf9fee93c05462edf63468d2bf0a3417e2dbdd42d13d32e428a9"
+  },
+  {
+    "arquivo": "045_Iluminacao_Publica_Iluminacao_Publica_Jaboatao_dos_Guararapes_PE.pdf",
+    "tamanho": 1256564,
+    "sha256": "17d920cbdcaed2c52fb79866dc6bac554245020a516c7468eb8eb303cba4834f"
+  },
+  {
+    "arquivo": "046_Iluminacao_Publica_Iluminacao_Publica_Juazeiro_BA.pdf",
+    "tamanho": 1722533,
+    "sha256": "93c2d58e26dba45b8a52ea16117290bb481958bf8d114b573840060ad08775e5"
+  },
+  {
+    "arquivo": "047_Iluminacao_Publica_Iluminacao_Publica_Lageado_RS.pdf",
+    "tamanho": 1056386,
+    "sha256": "c7178c89d54dd67e7ba315ae4822f9f8735d5a6e5b0274069534a2f912b6a1b4"
+  },
+  {
+    "arquivo": "048_Iluminacao_Publica_Iluminacao_Publica_Macapa_AP.pdf",
+    "tamanho": 5002977,
+    "sha256": "04dfb6ca393bc23972aeecdc6e84005d501685bcca73132d4828f8cdc8b40f3f"
+  },
+  {
+    "arquivo": "049_Iluminacao_Publica_Iluminacao_Publica_Maceio_AL.pdf",
+    "tamanho": 1062900,
+    "sha256": "da140cda8b245e9145dd20cadbb282d096e587968676598c287f9545c2163b53"
+  },
+  {
+    "arquivo": "050_Iluminacao_Publica_Iluminacao_Publica_Maranguape_CE.pdf",
+    "tamanho": 1234448,
+    "sha256": "63e47ab71f6b1f913dbd20ac8c13b26ed01a92d8f0c268836a87872b83cc466c"
+  },
+  {
+    "arquivo": "051_Iluminacao_Publica_Iluminacao_Publica_Mogi_das_Cruzes_SP.pdf",
+    "tamanho": 2282,
+    "sha256": "adcfec3eb85ea95c473a8af9997a8b8f71f7e5ccd67b30b291fb310bd3a2b236"
+  },
+  {
+    "arquivo": "052_Iluminacao_Publica_Iluminacao_Publica_Natal_RN.pdf",
+    "tamanho": 1729751,
+    "sha256": "9556a2aa45d530023467d1ab78fc0e0a066cbad3a4e7458f80e1f7dda6104a21"
+  },
+  {
+    "arquivo": "053_Iluminacao_Publica_Iluminacao_Publica_Nova_Friburgo_RJ.pdf",
+    "tamanho": 3149363,
+    "sha256": "cea98d94edb0e920f024192db8c92f2ff8fd6da34f3707bf843e5808cb98c407"
+  },
+  {
+    "arquivo": "054_Iluminacao_Publica_Iluminacao_Publica_Nova_Iguacu_RJ.pdf",
+    "tamanho": 1214378,
+    "sha256": "731c752001489c9cad78b000d2affaf8e66a8dd3d5f8eccb153c63210677e7e9"
+  },
+  {
+    "arquivo": "055_Iluminacao_Publica_Iluminacao_Publica_Nova_Lima_MG.pdf",
+    "tamanho": 1250459,
+    "sha256": "1c7127007c9c177849a346536cba9d908265dc79387805c5bf04131e7e2445e1"
+  },
+  {
+    "arquivo": "056_Iluminacao_Publica_Iluminacao_Publica_Novo_Hamburgo_RS.pdf",
+    "tamanho": 1625965,
+    "sha256": "1f49f4ad89d5d07e579b01fe91182e7e6d272db49f3048c402164f236dceed3a"
+  },
+  {
+    "arquivo": "057_Iluminacao_Publica_Iluminacao_Publica_Olinda_PE.pdf",
+    "tamanho": 5072473,
+    "sha256": "d2d011f4af1212ed37257b0c2bdb918eee709506b08f0121d36c418f0f097187"
+  },
+  {
+    "arquivo": "058_Iluminacao_Publica_Iluminacao_Publica_Paragominas_PA.pdf",
+    "tamanho": 1112639,
+    "sha256": "41132493191288d0727de18446438a2d407d4013a3b718bc238b5f4364cfa483"
+  },
+  {
+    "arquivo": "059_Iluminacao_Publica_Iluminacao_Publica_Patos_PB.pdf",
+    "tamanho": 1073177,
+    "sha256": "f9dfb7aff6219e156bfa334d013149816a451b0f5f831c6d14321ca982363d68"
+  },
+  {
+    "arquivo": "060_Iluminacao_Publica_Iluminacao_Publica_Patos_de_Minas_MG.pdf",
+    "tamanho": 1299320,
+    "sha256": "495a2772af2a4ce6a4e3614d8ddd682ccb87ac5ebb116970d6018274efcabfb0"
+  },
+  {
+    "arquivo": "061_Iluminacao_Publica_Iluminacao_Publica_Patrocinio_MG.pdf",
+    "tamanho": 1063830,
+    "sha256": "5df16592fef0fdb6f07b45e45cc0e23465a9f5ac1fecd3d9f5a5359d9bc4c8f7"
+  },
+  {
+    "arquivo": "062_Iluminacao_Publica_Iluminacao_Publica_Pedro_Leopoldo_MG.pdf",
+    "tamanho": 1760163,
+    "sha256": "4cfc49afa5207c7d81e44d60e35dc83241347023318529e428da676585c2da7a"
+  },
+  {
+    "arquivo": "063_Iluminacao_Publica_Iluminacao_Publica_Petrolina_PE.pdf",
+    "tamanho": 5021995,
+    "sha256": "4e82c18f1c8a7189708198a263bb52d8033a6b6e68c5724c0d524641f94da642"
+  },
+  {
+    "arquivo": "064_Iluminacao_Publica_Iluminacao_Publica_Ponta_Grossa_PR.pdf",
+    "tamanho": 5010579,
+    "sha256": "09842394168ab6aed988762df3fa1db3c13638ee1757b174b6b3d9fd5b552270"
+  },
+  {
+    "arquivo": "065_Iluminacao_Publica_Iluminacao_Publica_Porto_Seguro_BA.pdf",
+    "tamanho": 2888421,
+    "sha256": "2b651a6aee69a3f54d78d6baaa1defebd514d4bd73b9294de7d8ca875bd5ea6d"
+  },
+  {
+    "arquivo": "066_Iluminacao_Publica_Iluminacao_Publica_Ribeirao_Preto_SP.pdf",
+    "tamanho": 1272750,
+    "sha256": "c5c3ce872d21ca3d7cd0a0fb23563fa0ec6e041c1493eb752c6296a62ac1b8c2"
+  },
+  {
+    "arquivo": "067_Iluminacao_Publica_Iluminacao_Publica_Santa_Cruz_do_Capibaribe_PE.pdf",
+    "tamanho": 1785016,
+    "sha256": "dae3f30439d96df5e701fd795ea65965230bd648bd418ff8d406ec77c6aab21b"
+  },
+  {
+    "arquivo": "068_Iluminacao_Publica_Iluminacao_Publica_Santana_do_Livramento_RS.pdf",
+    "tamanho": 1631667,
+    "sha256": "5c6a75aea0940fb70392161473e558376aab7eea39607bc75b623e04c70c0482"
+  },
+  {
+    "arquivo": "069_Iluminacao_Publica_Iluminacao_Publica_Santo_Antonio_de_Jesus_BA.pdf",
+    "tamanho": 3012553,
+    "sha256": "5aed7e351c0335c284e838b26b671c3262ed28bf04cd6aa76bf9a15efdfae36e"
+  },
+  {
+    "arquivo": "070_Iluminacao_Publica_Iluminacao_Publica_Sao_Cristovao_SE.pdf",
+    "tamanho": 1078010,
+    "sha256": "67b460750f741d2d7e9b71653837419e8d84876830efa0884138a3d78babdd20"
+  },
+  {
+    "arquivo": "071_Iluminacao_Publica_Iluminacao_Publica_Sapucaia_do_Sul_RS.pdf",
+    "tamanho": 5425389,
+    "sha256": "e4818e11692ad627a7e30ee116fa4926cfa347c0fd71ff05dd0238339b235748"
+  },
+  {
+    "arquivo": "072_Iluminacao_Publica_Iluminacao_Publica_Saquarema_RJ.pdf",
+    "tamanho": 1241450,
+    "sha256": "deec93d66c3dab695e3352fde1380c698e28ecf4d0500ceb6d3c2d5d13abb5ee"
+  },
+  {
+    "arquivo": "073_Iluminacao_Publica_Iluminacao_Publica_Senhor_do_Bonfim_BA.pdf",
+    "tamanho": 1746565,
+    "sha256": "3bf92bc09561e5f4064a390e3a39f6b7083b4088150fa9d89098c8838d154c14"
+  },
+  {
+    "arquivo": "074_Iluminacao_Publica_Iluminacao_Publica_Sousa_PB.pdf",
+    "tamanho": 1746240,
+    "sha256": "db676bdb00839e2eb9b4e96d3a3ef94587c8268b720cecf86f77461568d0f79c"
+  },
+  {
+    "arquivo": "075_Mobilidade_CBTU_estudos_de_mobilidade_das_pracas_de_Natal_Joao_Pessoa_e_Maceio.pdf",
+    "tamanho": 2275622,
+    "sha256": "d9279cc58fe83efb2324d64d685d0d623b09719e070b1ad1bd42097e3ce72be5"
+  },
+  {
+    "arquivo": "076_Mobilidade_CBTU_PE_Metro_da_Regiao_Metropolitana_do_Recife_PE.pdf",
+    "tamanho": 1129035,
+    "sha256": "4fc8d2fe67bb2a66b65cc7e5ea7c8738c8161aa66d6dc345cc56ee8dcf8ce6b4"
+  },
+  {
+    "arquivo": "077_Mobilidade_CBTU_MG_Metro_da_Regiao_Metropolitana_de_Belo_Horizonte_MG.pdf",
+    "tamanho": 2385,
+    "sha256": "6780a75f4c0fdda787f114a95421d65797247d2b1bc4240dd3b961c465264ac7"
+  },
+  {
+    "arquivo": "078_Mobilidade_TRENSURB_Metro_da_Regiao_Metropolitana_de_Porto_Alegre_RS.pdf",
+    "tamanho": 2339023,
+    "sha256": "a3bcb08e90f87306ba94966551204fa9e6d3ec712e09ec966f36ea3f98eb00e4"
+  },
+  {
+    "arquivo": "079_Residuos_Solidos_Residuos_Solidos_Estado_de_Goias.pdf",
+    "tamanho": 2388525,
+    "sha256": "b657b432f796112770816d1be1e69c3336cd861ffc7ffd96afb81919f6f7dde1"
+  },
+  {
+    "arquivo": "080_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_CEMMIL_SP.pdf",
+    "tamanho": 2868328,
+    "sha256": "0d9e9bf0c57573da16b05f19e7361538a2e3a54f09b54b1b87eb456e368c2cf2"
+  },
+  {
+    "arquivo": "081_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_CI_Centro.pdf",
+    "tamanho": 3228308,
+    "sha256": "161d120c393504a70b7cd3f8d96d713f33d4fa7a2f3907efd93d5d0259682d1c"
+  },
+  {
+    "arquivo": "082_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_CONSUD.pdf",
+    "tamanho": 2326,
+    "sha256": "93554f1e29d65759dffb4899995794690bb71b8d10eb1ed9bff068d0f6bdd521"
+  },
+  {
+    "arquivo": "083_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_de_Desenvolvimento_Sustentavel_do_Triangulo_Mineiro_e_Alto_Paranaiba_CI.pdf",
+    "tamanho": 3067822,
+    "sha256": "67d7db9474055d9512c0fb4e4e1795fb2b6e14971b06c6e512d2fe2ccebbbb56"
+  },
+  {
+    "arquivo": "084_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_de_Municipios_do_Centro_Oeste_Mineiro_CIAS.pdf",
+    "tamanho": 2912148,
+    "sha256": "560bc967980ba544fa054699107e45f6479f16d9cd19a603cb31f4cfbb36a54c"
+  },
+  {
+    "arquivo": "085_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_de_Saude_do_Vale_do_Ribeira_e_Litoral_Sul_CONSAUDE_SP.pdf",
+    "tamanho": 2985824,
+    "sha256": "b6432b2dbdf6faa4f0305ee0387d492ef97650deb2d501da2039179768384614"
+  },
+  {
+    "arquivo": "086_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_do_Sertao_do_Araripe_Pernambucano_CISAPE_PE.pdf",
+    "tamanho": 3016937,
+    "sha256": "63f7bf439bf7601adaca3f69c7cc57cbedeaa3f515a1c88dcc38d4a4550720b1"
+  },
+  {
+    "arquivo": "087_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_Intermunicipal_de_Desenvolvimento_Sustentavel_da_Serra_Gaucha_CISGA.pdf",
+    "tamanho": 3121104,
+    "sha256": "a168607a9c4bdaf034b2bbf8b3cf95cacbb81c9a3fecf955d1e966d90cc8a069"
+  },
+  {
+    "arquivo": "088_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_Mogiana.pdf",
+    "tamanho": 2458,
+    "sha256": "d3d18d03933a3dfcd3b4ab205758a0a1a07a84a0d3349319cb521165d53d85ea"
+  },
+  {
+    "arquivo": "089_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_Oeste_Paulista.pdf",
+    "tamanho": 2985705,
+    "sha256": "09d513aaee246b4141d45e6940a06c162968cbfae774eb3f956aec2a8fd0e8fc"
+  },
+  {
+    "arquivo": "090_Residuos_Solidos_RESIDUOS_SOLIDOS_URBANOS_RSU_Consorcio_Publico_de_Saneamento_da_Bacia_Hidrografica_do_Rio_dos_Sinos_RS.pdf",
+    "tamanho": 3144051,
+    "sha256": "49bf39a4db64844bd06990e31e560f7d185b9325321473cd114f9e0e43d4ff20"
+  },
+  {
+    "arquivo": "091_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_Publico_do_Agreste_PE_e_Fronteiras_CONIAPE_PE.pdf",
+    "tamanho": 3064950,
+    "sha256": "1211263a461c3074af33e3789131682f924fa67a214d19313c65ac433675da43"
+  },
+  {
+    "arquivo": "092_Residuos_Solidos_RESIDUOS_SOLIDOS_URBANOS_RSU_Consorcio_Publico_dos_Municipios_da_Mata_Sul_COMSUL_PE.pdf",
+    "tamanho": 2966811,
+    "sha256": "4753daa6be0a4a66402de5bae5bce2a83d1f68d60223bff015b2de6f1c2a052f"
+  },
+  {
+    "arquivo": "093_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_Regional_de_Saneamento_Basico_Central_de_Minas_CORESAB.pdf",
+    "tamanho": 3079535,
+    "sha256": "77475037f6d26434fc6157303f7046602061b57e15d69d755c1bb000424eeb10"
+  },
+  {
+    "arquivo": "094_Residuos_Solidos_Residuos_Solidos_Urbanos_RSU_Consorcio_Sustentavel_do_Territorio_do_Sao_Francisco_CONSTESF_BA.pdf",
+    "tamanho": 3006880,
+    "sha256": "06b84ce4c566516f888ebb327f5082427595f4ce7cbcf8993e3d7a952866b07f"
+  },
+  {
+    "arquivo": "095_Residuos_Solidos_RESIDUOS_SOLIDOS_URBANOS_RSU_Estado_do_Amapa.pdf",
+    "tamanho": 2429429,
+    "sha256": "d59b621c766e08bc1246612bacb21f1adce069517728cc3646c912210dd86fb2"
+  },
+  {
+    "arquivo": "096_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgotos_Arapiraca_Bloco_D_Alagoas.pdf",
+    "tamanho": 2295600,
+    "sha256": "8abf153137a3f75c1f4b556ab45f6a78633e8b2f76880e29873ccff10d80c0bd"
+  },
+  {
+    "arquivo": "097_Saneamento_Distribuicao_de_agua_Engenho_Maranhao_PE_Ipojuca_e_Cabo_de_Santo_Agostinho.pdf",
+    "tamanho": 2083165,
+    "sha256": "c023e94c9dbb6a7441947319e59c7a3f73dd74f07d3f77006e4d8269b13e50dd"
+  },
+  {
+    "arquivo": "098_Saneamento_Esgotamento_Sanitario_Volta_Redonda_RJ.pdf",
+    "tamanho": 2709662,
+    "sha256": "c421f2a315adbb9e494d81055960db4fce8afa5eb0a01dc494879d7c9472ca04"
+  },
+  {
+    "arquivo": "099_Saneamento_Saneamento_basico_Estado_da_Paraiba.pdf",
+    "tamanho": 2046900,
+    "sha256": "1b2dacf901d13dd47450539ffd770394b1f900514e488d72c150db4276b7f6dc"
+  },
+  {
+    "arquivo": "100_Saneamento_Saneamento_Basico_Estado_de_Goias.pdf",
+    "tamanho": 2108440,
+    "sha256": "b4a8ebcd82e1a6985f29aeb7fe95bc3cd0e6464c00e26093a179e1de34784da1"
+  },
+  {
+    "arquivo": "101_Saneamento_Saneamento_basico_Estado_de_Rondonia.pdf",
+    "tamanho": 2335363,
+    "sha256": "036edaa4942e78897e0dad81d866c2bd2e0fb51b05ff82451b69e8fb9f038145"
+  },
+  {
+    "arquivo": "102_Saneamento_Saneamento_basico_Estado_de_Sergipe.pdf",
+    "tamanho": 2154041,
+    "sha256": "b0051645c8af9ffd00f4077791f382751e0b7ad679c75d734a9bd86f2c1b6503"
+  },
+  {
+    "arquivo": "103_Saneamento_Saneamento_Basico_Estado_do_Maranhao.pdf",
+    "tamanho": 2161255,
+    "sha256": "cf2998e1fa149df9ec89073ae9ca885dbefbf2e44b65b165408eeacfb8de62eb"
+  },
+  {
+    "arquivo": "104_Saneamento_Saneamento_Basico_Estado_do_Para.pdf",
+    "tamanho": 2074003,
+    "sha256": "7c343c7f935dde07542b5806e4f8304121bb860973d427e4fee31321bdbd0ca6"
+  },
+  {
+    "arquivo": "105_Saneamento_Saneamento_Basico_Estado_do_Para_Bloco_B.pdf",
+    "tamanho": 1905120,
+    "sha256": "671392a5fc899833ff9476c99cce4a50c7744e678d06c376ffcf8c720f7beefe"
+  },
+  {
+    "arquivo": "106_Saneamento_Saneamento_Basico_Estado_do_Rio_Grande_do_Norte.pdf",
+    "tamanho": 2145120,
+    "sha256": "c8551af7458cae5a074c1f4bfe087d7000fa90f815c552efb830f36f5aea615d"
+  },
+  {
+    "arquivo": "107_Saneamento_Saneamento_basico_Municipio_de_Porto_Alegre_RS.pdf",
+    "tamanho": 2423282,
+    "sha256": "e69f6e40fe3e51e9d0703bb6c8d6eefa996ec5c238de77ee4338ba4a3202acea"
+  },
+  {
+    "arquivo": "108_Saneamento_Saneamento_basico_Sao_Goncalo_do_Amarante_RN.pdf",
+    "tamanho": 2679346,
+    "sha256": "e258e7dfbd788f70915ec06e7133aff93b10485bcd6e2c8936402966538c45ed"
+  },
+  {
+    "arquivo": "109_Iluminacao_Publica_Iluminacao_Publica_Sao_Felix_do_Xingu_PA.pdf",
+    "tamanho": 2952688,
+    "sha256": "43d032dd5750c90fd1335c4a51c3762e0487cf794f06014d73fb7353321d7dcf"
+  },
+  {
+    "arquivo": "110_Iluminacao_Publica_Iluminacao_Publica_Sao_Jose_do_Rio_Pardo_SP.pdf",
+    "tamanho": 2340,
+    "sha256": "75cb34961b67cb999660c93934ef126e64c95e54d0cdd9f8d70bac0b5c45a478"
+  },
+  {
+    "arquivo": "111_Iluminacao_Publica_Iluminacao_Publica_Sao_Jose_dos_Pinhais_PR.pdf",
+    "tamanho": 2882365,
+    "sha256": "37f7fdd53b74a0f80f07b91ee4537f4c1e6c45f373fb70c0bf94c08136d99694"
+  },
+  {
+    "arquivo": "112_Iluminacao_Publica_Iluminacao_Publica_Sao_Joao_Del_Rei_MG.pdf",
+    "tamanho": 1760712,
+    "sha256": "5a7676c29952467b6627a17f1c754f7c4de5dbc7fd8a65e17ed75132ba6fa833"
+  },
+  {
+    "arquivo": "113_Iluminacao_Publica_Iluminacao_Publica_Sao_Pedro_da_Aldeia_RJ.pdf",
+    "tamanho": 2936298,
+    "sha256": "bd6b602bb2b1735c6a97a3d898f66d98784798eb46f8ff3df6e777a9db87b572"
+  },
+  {
+    "arquivo": "114_Iluminacao_Publica_Iluminacao_Publica_Timon_MA.pdf",
+    "tamanho": 3147361,
+    "sha256": "2266f480660b14769d5b799b3706c3404c5a3292ec85ffb1e58c36383b0ee3dd"
+  },
+  {
+    "arquivo": "115_Iluminacao_Publica_Iluminacao_Publica_Timoteo_MG.pdf",
+    "tamanho": 2304,
+    "sha256": "d5d3ee3bf6180ea1c33547bc296413a20156875d86dc463ab21000e2586c4ebd"
+  },
+  {
+    "arquivo": "116_Iluminacao_Publica_Iluminacao_Publica_Tres_Rios_RJ.pdf",
+    "tamanho": 1609600,
+    "sha256": "a041717986c3db4350b0a1be478c54ba4056757ac0548d34e44e67d867dc42f6"
+  },
+  {
+    "arquivo": "117_Iluminacao_Publica_Iluminacao_Publica_Valenca_BA.pdf",
+    "tamanho": 2303,
+    "sha256": "331b8254e51a88aa51283e15a0afa35398fb25214a135f3c1bd54f4443d7cf82"
+  },
+  {
+    "arquivo": "118_Iluminacao_Publica_Iluminacao_Publica_Vitoria_de_Santo_Antao_PE.pdf",
+    "tamanho": 2343,
+    "sha256": "8fe6fdcbf76d00cb6d147d6202cfa1a2d57dc7753fc70979f1087a30b934c19c"
+  },
+  {
+    "arquivo": "119_Saneamento_Saneamento_CASAL_AL.pdf",
+    "tamanho": 3819,
+    "sha256": "4d184a1d590154646b5f026d641be7a23620972af45a44eb87c4d297a309ab3d"
+  },
+  {
+    "arquivo": "120_Saneamento_Saneamento_Basico_Estado_do_Para_Bloco_C.pdf",
+    "tamanho": 4931,
+    "sha256": "e7554e6c6ddde245c5a0d8c7ae11de86e1505b0d123743a9d457b0c98dd1be89"
+  },
+  {
+    "arquivo": "121_Saneamento_Saneamento_Basico_Estado_do_Para_Bloco_D.pdf",
+    "tamanho": 4933,
+    "sha256": "e642dcb4d3437fa726fd0d751d9e11107b4a7ef45a999546a833e5d15748cc41"
+  },
+  {
+    "arquivo": "122_Iluminacao_Publica_Iluminacao_Publica_Consorcio_Alto_Sertao_BA.pdf",
+    "tamanho": 5987680,
+    "sha256": "a0ef9b6c33fcef2434840685d38d61dbe1edd60195862ef5bcadf0f1e860942d"
+  },
+  {
+    "arquivo": "123_Iluminacao_Publica_Iluminacao_Publica_Consorcio_CONDER_PR.pdf",
+    "tamanho": 5510027,
+    "sha256": "a02e46faaf5d91e37d2cda46e03c80649361d91ed156721f0d0f86fcfa45fd82"
+  },
+  {
+    "arquivo": "124_Iluminacao_Publica_Iluminacao_Publica_Teixeira_de_Freitas_BA.pdf",
+    "tamanho": 5455588,
+    "sha256": "5b254680bf5946672ee39dce987043e21cc89ad8332524299250f5bb0db8bd62"
+  },
+  {
+    "arquivo": "125_Iluminacao_Publica_Iluminacao_Publica_Toledo_PR.pdf",
+    "tamanho": 5688570,
+    "sha256": "78763b9b2776ffb72921c0b152173e40f9698d192b8628b10fd394a5e8cdc2ce"
+  },
+  {
+    "arquivo": "126_Iluminacao_Publica_Iluminacao_Publica_Vila_Velha_ES.pdf",
+    "tamanho": 5162887,
+    "sha256": "3ef158f4b5fa9ed57ab8daa9abbeefe1db860cf3e3bf84c666338dcc712a3eec"
+  },
+  {
+    "arquivo": "127_Habitacao_Habitacao_para_Locacao_Social_Campo_Grande_MS.pdf",
+    "tamanho": 3146743,
+    "sha256": "dfc9880f77da4cc46a59eb06174df85a2c04a39219a55885efcc23b8a18bc857"
+  },
+  {
+    "arquivo": "128_Habitacao_Habitacao_para_Locacao_Social_Maceio_AL.pdf",
+    "tamanho": 1695976,
+    "sha256": "aa574f993336a93439c78ff8e41ed455fe488576bad80d726480de48c3437d3d"
+  },
+  {
+    "arquivo": "129_Habitacao_Habitacao_para_Locacao_Social_Recife_PE.pdf",
+    "tamanho": 3132901,
+    "sha256": "cfaf48126f71e88cab7d93dcdf01c07de411ec214fdcdee76075ff08b21f2d12"
+  },
+  {
+    "arquivo": "130_Habitacao_Habitacao_para_Locacao_Social_Santo_Andre_SP.pdf",
+    "tamanho": 2675854,
+    "sha256": "be58a1d8b67046238e3744dcd3fe3320552aba57e7b1832445c2afd9c35c5b30"
+  },
+  {
+    "arquivo": "131_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Estado_do_Rio_de_Janeiro_Blocos_1_2_e_4.pdf",
+    "tamanho": 1636427,
+    "sha256": "e120e477ea796f0b5051fcd340b264da377bc67a93576af73d982d1c65c9d393"
+  },
+  {
+    "arquivo": "132_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Estado_do_Amapa.pdf",
+    "tamanho": 2291100,
+    "sha256": "f04f3b0308fcf384cc0acb327b9f1565cdd13fd2bc586a4ac76b730388b63976"
+  },
+  {
+    "arquivo": "133_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Bloco_B_Estado_de_Alagoas_Zona_da_Mata_e_Agreste.pdf",
+    "tamanho": 1559287,
+    "sha256": "acaa9c5e647e1eee559af15549b47fae920169d63ad0054fc48c8831899636e3"
+  },
+  {
+    "arquivo": "134_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Bloco_A_Estado_de_Alagoas_RM_Alagoas.pdf",
+    "tamanho": 2426275,
+    "sha256": "21531df3c046dcbc89becfaf5ddf19cdb7d253f2347c1a29a69e1be15bbf2d0d"
+  },
+  {
+    "arquivo": "135_Saneamento_Saneamento_Basico_Estado_de_Pernambuco_Bloco_1.pdf",
+    "tamanho": 1468455,
+    "sha256": "3cbdbadf21937ffc577e63c7d2e907fa7c95aea3e5091ef8f948bee891effd9c"
+  },
+  {
+    "arquivo": "136_Saneamento_Saneamento_Basico_Estado_de_Pernambuco_Bloco_2.pdf",
+    "tamanho": 1226620,
+    "sha256": "daa57f33db61e3f78ca50f50a2df994e46855ba253ea2c4fb9a1d817dcd682f6"
+  },
+  {
+    "arquivo": "137_Saneamento_Servicos_de_residuos_solidos_urbanos_agua_e_esgotamento_sanitario_Sao_Simao_GO.pdf",
+    "tamanho": 2145919,
+    "sha256": "57a3b9ed63f14ac3124dce7d366d240983d03f9d61fe04f2576e8ce30268eca7"
+  },
+  {
+    "arquivo": "138_Saneamento_Tratamento_de_esgoto_Estado_do_Ceara.pdf",
+    "tamanho": 1505323,
+    "sha256": "f04d4f721ff880b6369ba0bf288e97ee8e4eee015be8f443fb61091b0872fd90"
+  },
+  {
+    "arquivo": "139_Saneamento_Esgotamento_Sanitario_Crato_CE.pdf",
+    "tamanho": 1803493,
+    "sha256": "3c7d8cc51210dc29ea962411255580e4b22ce15d04ac57d1e4053ac36387916d"
+  },
+  {
+    "arquivo": "140_Saneamento_Distribuicao_de_agua_e_tratamento_de_esgoto_Rio_de_Janeiro_CEDAE_Bloco_3.pdf",
+    "tamanho": 1443601,
+    "sha256": "07f93155502987eb9c350f9e55bd0d9940ad5daf9ade2c78c61e936766efc0e6"
+  },
+  {
+    "arquivo": "141_Saneamento_Corsan_Estado_do_Rio_Grande_do_Sul.pdf",
+    "tamanho": 1398894,
+    "sha256": "2ef9819635778213cec559c7238f6764fbcb7570d21d9d217a2cc70de549954f"
+  },
+  {
+    "arquivo": "142_Residuos_Solidos_RSU_Consorcio_Municipal_Convale_MG.pdf",
+    "tamanho": 2109720,
+    "sha256": "1e0caf96275bff03b5f830c6d4833a8956b73541e41473e0be30b221b29cdbae"
+  },
+  {
+    "arquivo": "143_Residuos_Solidos_RSU_Consorcio_Municipal_Comares_CE.pdf",
+    "tamanho": 2080957,
+    "sha256": "32f28bfbf809667c21bd0777589f13f3dccd44e6023505b8bd5e474a0f1b4aa7"
+  },
+  {
+    "arquivo": "144_Saneamento_Tratamento_de_esgoto_Municipio_de_Cariacica_ES.pdf",
+    "tamanho": 3653,
+    "sha256": "b75707d13355c4dd725d20f0ccb4c6870ff879579c24a50ae9b4980a216aaff5"
+  }
+]

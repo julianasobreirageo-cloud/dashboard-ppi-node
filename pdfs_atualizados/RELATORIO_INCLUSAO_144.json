@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-16T01:18:57.414Z",
+  "totalProjetos": 144,
+  "totalPdfs": 144,
+  "projetoIncluido": {
+    "numero": 144,
+    "categoria": "Saneamento",
+    "projeto": "Tratamento de esgoto - Município de Cariacica/ES",
+    "url": "https://ppi.gov.br/projetos/tratamento-de-esgoto-municipio-de-cariacica-es/",
+    "arquivo": "144_Saneamento_Tratamento_de_esgoto_Municipio_de_Cariacica_ES.pdf",
+    "uf": "ES",
+    "municipio": "Cariacica/ES (abrange bairros de Viana)",
+    "etapa": "Contrato",
+    "status": "Concluído",
+    "modalidade": "PPP",
+    "capex": 395000000,
+    "opex": null,
+    "populacao": 423000,
+    "situacao": "PPP de esgotamento sanitário contratada em 29/12/2020, após leilão realizado em 20/10/2020; projeto concluído no PPI.",
+    "regiao": "Sudeste"
+  },
+  "planilha": "base_power_bi_projetos_ppi_TABELA_ORIGINAL_ATUALIZADA_144_PROJETOS_15_08_2026.xlsx",
+  "catalogo": "catalogo_ppi_144_projetos.csv",
+  "duplicidadesPorHash": 0,
+  "observacao": "Cariacica/ES incluído em toda a base após comparação com a carteira oficial do PPI."
+}
