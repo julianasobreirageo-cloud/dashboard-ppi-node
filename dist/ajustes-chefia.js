@@ -1,52 +1,30 @@
 (() => {
   "use strict";
 
-  /*
-    AJUSTES SOLICITADOS - PAINEL PPI
-    1) Retira "A confirmar no PPI" do menu de fases sem inventar outra fase.
-    2) Padroniza status para:
-       - Não iniciado
-       - Em andamento
-       - Concluído
-       - Suspenso
-    3) Remove "Não informado" do gráfico Estados com mais projetos.
-    4) Remove categoria "Não informado" de CAPEX por modalidade quando valor = R$ 0.
-    5) Remove categoria "Não informado" de CAPEX por macrorregião quando valor = R$ 0.
-  */
-
   const originalFetch = window.fetch.bind(window);
 
   function normalizarStatus(valor) {
     const s = String(valor || "").trim().toLowerCase();
 
-    if (!s) return "Não iniciado";
+    // IMPORTANTE:
+    // status vazio continua vazio. Não transformar automaticamente em "Não iniciado".
+    // "Não iniciado" só deve ser usado quando a ficha/orientação específica indicar isso.
+    if (!s) return "";
+
     if (s.includes("suspens")) return "Suspenso";
     if (s.includes("conclu")) return "Concluído";
-
-    // "Em acompanhamento" deixa de existir como categoria separada.
-    // No painel passa a integrar "Em andamento".
     if (s.includes("acompanh")) return "Em andamento";
     if (s.includes("andamento")) return "Em andamento";
+    if (s.includes("não iniciado") || s.includes("nao iniciado")) return "Não iniciado";
 
-    if (s.includes("não iniciado") || s.includes("nao iniciado")) {
-      return "Não iniciado";
-    }
-
-    // Qualquer valor antigo/indefinido não aparece como "Não informado".
-    return "Não iniciado";
+    return "";
   }
 
   function tentarUfDoTexto(item) {
     if (item.uf && String(item.uf).trim()) return item.uf;
 
-    const candidatos = [
-      item.municipio,
-      item.projeto,
-      item.situacao
-    ].filter(Boolean);
-
+    const candidatos = [item.municipio, item.projeto, item.situacao].filter(Boolean);
     for (const texto of candidatos) {
-      // Prioriza "(DF)", "(SP)", "/MG", "- RJ" etc.
       let m = String(texto).match(/\(([A-Z]{2})\)\s*$/);
       if (m) return m[1];
 
@@ -58,21 +36,13 @@
 
   function normalizarProjeto(p) {
     const x = { ...p };
-
     x.status = normalizarStatus(x.status);
 
-    // "A confirmar no PPI" não é uma fase de projeto.
-    // O valor fica vazio até a ficha indicar a fase correta,
-    // portanto deixa de aparecer no menu "Todas as fases".
     if (String(x.etapa || "").trim().toLowerCase() === "a confirmar no ppi") {
       x.etapa = "";
     }
 
-    // Corrige UFs inferíveis diretamente pelo nome/município.
-    if (!x.uf) {
-      x.uf = tentarUfDoTexto(x);
-    }
-
+    if (!x.uf) x.uf = tentarUfDoTexto(x);
     return x;
   }
 
@@ -97,7 +67,7 @@
         }
       }
     } catch (e) {
-      console.warn("Ajustes da chefia: não foi possível normalizar data.json", e);
+      console.warn("Ajustes PPI: não foi possível normalizar data.json", e);
     }
 
     return response;
@@ -133,39 +103,41 @@
         return;
       }
 
-      // Aceita R$ 0, R$ 0,00 ou abreviações equivalentes a zero.
       const numero = valor
         .replace(/[^\d,.-]/g, "")
         .replace(/\./g, "")
         .replace(",", ".");
 
       const n = Number(numero || "0");
-      if (!Number.isFinite(n) || n === 0) {
-        bar.remove();
-      }
+      if (!Number.isFinite(n) || n === 0) bar.remove();
     });
   }
 
   function aplicarAjustesVisuais() {
-    // 3. Estados com mais projetos: não mostrar categoria "Não informado".
+    // Status geral: não exibir categoria "Não informado".
+    removerBarraNaoInformado(
+      encontrarPainelPorTitulo("Projetos por status geral"),
+      false
+    );
+
+    // Estados: não exibir categoria "Não informado".
     removerBarraNaoInformado(
       encontrarPainelPorTitulo("Estados com mais projetos"),
       false
     );
 
-    // 4. CAPEX/OPEX por modalidade contratual: retirar "Não informado" quando R$ 0.
+    // Financeiro: retirar "Não informado" somente quando o valor é zero.
     const modalidade =
       encontrarPainelPorTitulo("CAPEX por modalidade contratual") ||
       encontrarPainelPorTitulo("OPEX por modalidade contratual");
     removerBarraNaoInformado(modalidade, true);
 
-    // 5. CAPEX/OPEX por macrorregião: retirar "Não informado" quando R$ 0.
     const regiao =
       encontrarPainelPorTitulo("CAPEX por macrorregião") ||
       encontrarPainelPorTitulo("OPEX por macrorregião");
     removerBarraNaoInformado(regiao, true);
 
-    // Segurança extra: os status do menu devem ficar somente nos quatro solicitados.
+    // Menu de status: apenas os quatro status oficiais.
     document.querySelectorAll("select").forEach(sel => {
       const primeiro = sel.options?.[0]?.textContent || "";
       if (!/todos os status/i.test(primeiro)) return;
@@ -178,24 +150,23 @@
       });
     });
 
-    // Retira eventual opção residual de fase.
+    // "A confirmar no PPI" não deve aparecer como fase.
     document.querySelectorAll("select").forEach(sel => {
       const primeiro = sel.options?.[0]?.textContent || "";
       if (!/todas as fases/i.test(primeiro)) return;
 
       [...sel.options].forEach(opt => {
-        if (/a confirmar no ppi/i.test(opt.textContent || "")) {
-          opt.remove();
-        }
+        if (/a confirmar no ppi/i.test(opt.textContent || "")) opt.remove();
       });
     });
   }
 
-  const obs = new MutationObserver(() => aplicarAjustesVisuais());
+  const obs = new MutationObserver(aplicarAjustesVisuais);
   obs.observe(document.documentElement, { childList: true, subtree: true });
 
   window.addEventListener("DOMContentLoaded", aplicarAjustesVisuais);
   window.addEventListener("load", aplicarAjustesVisuais);
 
-  console.info("Ajustes da chefia PPI carregados.");
+  console.info("Ajustes finais PPI carregados.");
 })();
+
