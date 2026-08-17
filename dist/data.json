@@ -297,13 +297,14 @@
     "uf": "PR",
     "municipio": "Cambé (PR)",
     "etapa": "Estudo",
-    "status": "Em acompanhamento",
+    "status": "Não iniciado",
     "modalidade": "PPP",
     "capex": null,
     "opex": null,
     "populacao": null,
     "situacao": "Ficha PPI sem situação atual, cronograma e valores financeiros preenchidos.",
-    "regiao": "Sul"
+    "regiao": "Sul",
+    "ultima_atualizacao": "12/02/2026"
   },
   {
     "numero": 19,
@@ -2448,3 +2449,5 @@
     "regiao": "Sudeste"
   }
 ]
+    
+   
