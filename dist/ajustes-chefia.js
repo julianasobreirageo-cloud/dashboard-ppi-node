@@ -1,0 +1,201 @@
+(() => {
+  "use strict";
+
+  /*
+    AJUSTES SOLICITADOS - PAINEL PPI
+    1) Retira "A confirmar no PPI" do menu de fases sem inventar outra fase.
+    2) Padroniza status para:
+       - Não iniciado
+       - Em andamento
+       - Concluído
+       - Suspenso
+    3) Remove "Não informado" do gráfico Estados com mais projetos.
+    4) Remove categoria "Não informado" de CAPEX por modalidade quando valor = R$ 0.
+    5) Remove categoria "Não informado" de CAPEX por macrorregião quando valor = R$ 0.
+  */
+
+  const originalFetch = window.fetch.bind(window);
+
+  function normalizarStatus(valor) {
+    const s = String(valor || "").trim().toLowerCase();
+
+    if (!s) return "Não iniciado";
+    if (s.includes("suspens")) return "Suspenso";
+    if (s.includes("conclu")) return "Concluído";
+
+    // "Em acompanhamento" deixa de existir como categoria separada.
+    // No painel passa a integrar "Em andamento".
+    if (s.includes("acompanh")) return "Em andamento";
+    if (s.includes("andamento")) return "Em andamento";
+
+    if (s.includes("não iniciado") || s.includes("nao iniciado")) {
+      return "Não iniciado";
+    }
+
+    // Qualquer valor antigo/indefinido não aparece como "Não informado".
+    return "Não iniciado";
+  }
+
+  function tentarUfDoTexto(item) {
+    if (item.uf && String(item.uf).trim()) return item.uf;
+
+    const candidatos = [
+      item.municipio,
+      item.projeto,
+      item.situacao
+    ].filter(Boolean);
+
+    for (const texto of candidatos) {
+      // Prioriza "(DF)", "(SP)", "/MG", "- RJ" etc.
+      let m = String(texto).match(/\(([A-Z]{2})\)\s*$/);
+      if (m) return m[1];
+
+      m = String(texto).match(/(?:\/|\-|\s)(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\b/);
+      if (m) return m[1];
+    }
+    return "";
+  }
+
+  function normalizarProjeto(p) {
+    const x = { ...p };
+
+    x.status = normalizarStatus(x.status);
+
+    // "A confirmar no PPI" não é uma fase de projeto.
+    // O valor fica vazio até a ficha indicar a fase correta,
+    // portanto deixa de aparecer no menu "Todas as fases".
+    if (String(x.etapa || "").trim().toLowerCase() === "a confirmar no ppi") {
+      x.etapa = "";
+    }
+
+    // Corrige UFs inferíveis diretamente pelo nome/município.
+    if (!x.uf) {
+      x.uf = tentarUfDoTexto(x);
+    }
+
+    return x;
+  }
+
+  window.fetch = async function(input, init) {
+    const response = await originalFetch(input, init);
+
+    try {
+      const url = typeof input === "string" ? input : input?.url || "";
+      if (/\/data\.json(?:\?|$)/i.test(url)) {
+        const raw = await response.clone().json();
+
+        if (Array.isArray(raw)) {
+          const corrigido = raw.map(normalizarProjeto);
+          return new Response(JSON.stringify(corrigido), {
+            status: response.status,
+            statusText: response.statusText,
+            headers: {
+              "Content-Type": "application/json; charset=utf-8",
+              "Cache-Control": "no-store"
+            }
+          });
+        }
+      }
+    } catch (e) {
+      console.warn("Ajustes da chefia: não foi possível normalizar data.json", e);
+    }
+
+    return response;
+  };
+
+  function texto(el) {
+    return (el?.textContent || "").replace(/\s+/g, " ").trim();
+  }
+
+  function encontrarPainelPorTitulo(titulo) {
+    const heads = [...document.querySelectorAll(".panel-head h2")];
+    const h = heads.find(el => texto(el).toLowerCase() === titulo.toLowerCase());
+    return h ? h.closest(".panel") : null;
+  }
+
+  function removerBarraNaoInformado(painel, somenteSeZero = false) {
+    if (!painel) return;
+
+    painel.querySelectorAll(".bar").forEach(bar => {
+      const label = texto(bar.querySelector(".bar-head span")).toLowerCase();
+      const valor = texto(bar.querySelector(".bar-head b")).toLowerCase();
+
+      const naoInformado =
+        label === "não informado" ||
+        label === "não informada" ||
+        label === "nao informado" ||
+        label === "nao informada";
+
+      if (!naoInformado) return;
+
+      if (!somenteSeZero) {
+        bar.remove();
+        return;
+      }
+
+      // Aceita R$ 0, R$ 0,00 ou abreviações equivalentes a zero.
+      const numero = valor
+        .replace(/[^\d,.-]/g, "")
+        .replace(/\./g, "")
+        .replace(",", ".");
+
+      const n = Number(numero || "0");
+      if (!Number.isFinite(n) || n === 0) {
+        bar.remove();
+      }
+    });
+  }
+
+  function aplicarAjustesVisuais() {
+    // 3. Estados com mais projetos: não mostrar categoria "Não informado".
+    removerBarraNaoInformado(
+      encontrarPainelPorTitulo("Estados com mais projetos"),
+      false
+    );
+
+    // 4. CAPEX/OPEX por modalidade contratual: retirar "Não informado" quando R$ 0.
+    const modalidade =
+      encontrarPainelPorTitulo("CAPEX por modalidade contratual") ||
+      encontrarPainelPorTitulo("OPEX por modalidade contratual");
+    removerBarraNaoInformado(modalidade, true);
+
+    // 5. CAPEX/OPEX por macrorregião: retirar "Não informado" quando R$ 0.
+    const regiao =
+      encontrarPainelPorTitulo("CAPEX por macrorregião") ||
+      encontrarPainelPorTitulo("OPEX por macrorregião");
+    removerBarraNaoInformado(regiao, true);
+
+    // Segurança extra: os status do menu devem ficar somente nos quatro solicitados.
+    document.querySelectorAll("select").forEach(sel => {
+      const primeiro = sel.options?.[0]?.textContent || "";
+      if (!/todos os status/i.test(primeiro)) return;
+
+      [...sel.options].forEach(opt => {
+        const v = (opt.textContent || "").trim();
+        if (v && !["Todos os status", "Não iniciado", "Em andamento", "Concluído", "Suspenso"].includes(v)) {
+          opt.remove();
+        }
+      });
+    });
+
+    // Retira eventual opção residual de fase.
+    document.querySelectorAll("select").forEach(sel => {
+      const primeiro = sel.options?.[0]?.textContent || "";
+      if (!/todas as fases/i.test(primeiro)) return;
+
+      [...sel.options].forEach(opt => {
+        if (/a confirmar no ppi/i.test(opt.textContent || "")) {
+          opt.remove();
+        }
+      });
+    });
+  }
+
+  const obs = new MutationObserver(() => aplicarAjustesVisuais());
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+
+  window.addEventListener("DOMContentLoaded", aplicarAjustesVisuais);
+  window.addEventListener("load", aplicarAjustesVisuais);
+
+  console.info("Ajustes da chefia PPI carregados.");
+})();
