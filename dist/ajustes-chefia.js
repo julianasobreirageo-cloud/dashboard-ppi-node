@@ -87,6 +87,8 @@
     if (!painel) return;
 
     painel.querySelectorAll(".bar").forEach(bar => {
+      bar.style.display = "";
+      bar.removeAttribute("aria-hidden");
       const label = texto(bar.querySelector(".bar-head span")).toLowerCase();
       const valor = texto(bar.querySelector(".bar-head b")).toLowerCase();
 
@@ -99,7 +101,8 @@
       if (!naoInformado) return;
 
       if (!somenteSeZero) {
-        bar.remove();
+        bar.style.display = "none";
+        bar.setAttribute("aria-hidden", "true");
         return;
       }
 
@@ -109,7 +112,10 @@
         .replace(",", ".");
 
       const n = Number(numero || "0");
-      if (!Number.isFinite(n) || n === 0) bar.remove();
+      if (!Number.isFinite(n) || n === 0) {
+        bar.style.display = "none";
+        bar.setAttribute("aria-hidden", "true");
+      }
     });
   }
 
@@ -143,9 +149,12 @@
       if (!/todos os status/i.test(primeiro)) return;
 
       [...sel.options].forEach(opt => {
+        opt.hidden = false;
+        opt.disabled = false;
         const v = (opt.textContent || "").trim();
         if (v && !["Todos os status", "Não iniciado", "Em andamento", "Concluído", "Suspenso"].includes(v)) {
-          opt.remove();
+          opt.hidden = true;
+          opt.disabled = true;
         }
       });
     });
@@ -156,7 +165,12 @@
       if (!/todas as fases/i.test(primeiro)) return;
 
       [...sel.options].forEach(opt => {
-        if (/a confirmar no ppi/i.test(opt.textContent || "")) opt.remove();
+        opt.hidden = false;
+        opt.disabled = false;
+        if (/a confirmar no ppi/i.test(opt.textContent || "")) {
+          opt.hidden = true;
+          opt.disabled = true;
+        }
       });
     });
   }
@@ -169,4 +183,3 @@
 
   console.info("Ajustes finais PPI carregados.");
 })();
-
