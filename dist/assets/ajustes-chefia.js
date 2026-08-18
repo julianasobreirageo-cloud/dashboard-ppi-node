@@ -3,6 +3,14 @@
 
   const originalFetch = window.fetch.bind(window);
 
+  const PROJETOS_SEM_EVIDENCIA_PDF = new Set([
+    "Iluminação Pública – Mogi das Cruzes (SP)",
+    "Iluminação Pública – São José do Rio Pardo (SP)",
+    "Iluminação Pública – Timóteo (MG)",
+    "Iluminação Pública – Valença (BA)",
+    "Iluminação Pública – Vitória de Santo Antão (PE)"
+  ]);
+
   function normalizarStatus(valor) {
     const s = String(valor || "").trim().toLowerCase();
 
@@ -37,6 +45,14 @@
   function normalizarProjeto(p) {
     const x = { ...p };
     x.status = normalizarStatus(x.status);
+
+    // Premissa da chefia:
+    // se o projeto está "Em andamento", mas o PDF analisável não traz evidência
+    // de início/andamento, considerar "Não iniciado".
+    // A regra só atua enquanto o status de origem continuar "Em andamento".
+    if (x.status === "Em andamento" && PROJETOS_SEM_EVIDENCIA_PDF.has(String(x.projeto || "").trim())) {
+      x.status = "Não iniciado";
+    }
 
     if (String(x.etapa || "").trim().toLowerCase() === "a confirmar no ppi") {
       x.etapa = "";
