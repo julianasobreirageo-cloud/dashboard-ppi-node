@@ -3,12 +3,26 @@
 
   const originalFetch = window.fetch.bind(window);
 
-  const PROJETOS_SEM_EVIDENCIA_PDF = new Set([
+  const PROJETOS_PREMISSA_NAO_INICIADO = new Set([
+    "Iluminação Pública – Cambé (PR)",
+    "Iluminação Pública – Ibiúna (SP)",
+    "Iluminação Pública – Itaperuna (RJ)",
+    "Iluminação Pública – Itumbiara (GO)",
+    "Iluminação Pública – Juazeiro (BA)",
     "Iluminação Pública – Mogi das Cruzes (SP)",
+    "Iluminação Pública – Natal (RN)",
+    "Iluminação Pública – Novo Hamburgo (RS)",
+    "Iluminação Pública – Pedro Leopoldo (MG)",
+    "Iluminação Pública – Santa Cruz do Capibaribe (PE)",
+    "Iluminação Pública – Santana do Livramento (RS)",
+    "Iluminação Pública – Senhor do Bonfim (BA)",
+    "Iluminação Pública – Sousa (PB)",
+    "TRENSURB: Metrô da Região Metropolitana de Porto Alegre/RS",
     "Iluminação Pública – São José do Rio Pardo (SP)",
+    "Iluminação Pública – São João Del Rei (MG)",
     "Iluminação Pública – Timóteo (MG)",
-    "Iluminação Pública – Valença (BA)",
-    "Iluminação Pública – Vitória de Santo Antão (PE)"
+    "Iluminação Pública – Três Rios (RJ)",
+    "Iluminação Pública – Valença (BA)"
   ]);
 
   function normalizarStatus(valor) {
@@ -46,11 +60,15 @@
     const x = { ...p };
     x.status = normalizarStatus(x.status);
 
-    // Premissa da chefia:
-    // se o projeto está "Em andamento", mas o PDF analisável não traz evidência
-    // de início/andamento, considerar "Não iniciado".
-    // A regra só atua enquanto o status de origem continuar "Em andamento".
-    if (x.status === "Em andamento" && PROJETOS_SEM_EVIDENCIA_PDF.has(String(x.projeto || "").trim())) {
+    // Premissa validada em 18/08/2026:
+    // projetos cuja ficha/PDF não traz situação atual útil/evidência de início
+    // devem aparecer como "Não iniciado".
+    // A regra só é aplicada enquanto o status normalizado ainda seria "Em andamento";
+    // se a base futura passar a informar Concluído ou Suspenso, isso prevalece.
+    if (
+      x.status === "Em andamento" &&
+      PROJETOS_PREMISSA_NAO_INICIADO.has(String(x.projeto || "").trim())
+    ) {
       x.status = "Não iniciado";
     }
 
