@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {spawn} from 'node:child_process';
 import AdmZip from 'adm-zip';
 import {auditPortfolio} from './portfolio-audit.mjs';
+import {classifyRecord, verifyPpiPage} from './situation-verifier.mjs';
 
 const ROOT=path.dirname(fileURLToPath(import.meta.url));
 const DIST=path.join(ROOT,'dist'),DATA=path.join(ROOT,'dados'),UPDATED=path.join(ROOT,'pdfs_atualizados','PDFs');
@@ -36,11 +37,25 @@ async function aiSummary(req,res){
   json(res,200,{ok:true,summary:text,dataset_audit:portfolio.audit});
  }catch(e){json(res,500,{ok:false,error:e.message,dataset_audit:portfolio.audit})}
 }
+async function verifySituationPages(req,res){
+ const input=await body(req),urls=Array.isArray(input.urls)?input.urls.map(String).filter(Boolean).slice(0,50):[];
+ if(!urls.length)return json(res,400,{ok:false,error:'Informe ao menos uma URL oficial do PPI.'});
+ const results=[];
+ for(const value of urls){try{results.push(await verifyPpiPage(value))}catch(e){results.push({url:value,classification:'ERRO',candidate_status:'',error:e.message})}}
+ return json(res,200,{ok:true,results});
+}
+function verifyCurrentBase(res){
+ const projects=JSON.parse(fs.readFileSync(path.join(DIST,'data.json'),'utf8'));
+ const results=projects.map(project=>({...project,...classifyRecord(project)})).filter(item=>item.classification!=='COM_SITUACAO');
+ return json(res,200,{ok:true,review_required:true,results});
+}
 const server=http.createServer(async(req,res)=>{
  const url=new URL(req.url,'http://localhost');
  if(req.method==='POST'&&url.pathname==='/api/update')return update(req,res);
  if(req.method==='POST'&&url.pathname==='/api/full-update')return fullUpdate(req,res);
  if(req.method==='POST'&&url.pathname==='/api/summary')return aiSummary(req,res);
+ if(req.method==='POST'&&url.pathname==='/api/verificar-situacao')return verifySituationPages(req,res);
+ if(req.method==='GET'&&url.pathname==='/api/verificar-base-situacao')return verifyCurrentBase(res);
  if(req.method==='GET'&&url.pathname==='/api/excel')return fs.existsSync(EXCEL)?send(res,200,fs.readFileSync(EXCEL),types['.xlsx'],{'Content-Disposition':`attachment; filename="${EXCEL_NAME}"`}):json(res,404,{ok:false,error:'Excel atualizado não encontrado na pasta dados.'});
  if(req.method==='GET'&&url.pathname==='/api/export')return send(res,200,fs.readFileSync(path.join(DIST,'data.json')),types['.json'],{'Content-Disposition':'attachment; filename="projetos_ppi.json"'});
  if(req.method==='GET'&&url.pathname.startsWith('/api/pdf/')){const name=path.basename(decodeURIComponent(url.pathname.slice(9))),updated=path.join(UPDATED,name);const data=fs.existsSync(updated)?fs.readFileSync(updated):pdfFromBase(name);return data?send(res,200,data,types['.pdf'],{'Content-Disposition':`attachment; filename="${name.replaceAll('"','')}"`}):json(res,404,{ok:false,error:'PDF não encontrado'})}
