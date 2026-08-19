@@ -180,19 +180,56 @@
     const style = document.createElement("style");
     style.id = "ppi-cobertura-sem-caixa";
     style.textContent = `
+      .map-content > .coverage,
       .map-content .coverage {
         background: transparent !important;
         border: 0 !important;
         box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 0 0 24px !important;
+        gap: 14px !important;
       }
       .map-content .coverage > div {
         background: transparent !important;
         border: 0 !important;
         box-shadow: none !important;
-        padding: 6px 0 !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: baseline !important;
+        gap: 8px !important;
+      }
+      .map-content .coverage > span {
+        color: #52667d !important;
+      }
+      .map-content .coverage strong {
+        color: #12365f !important;
+        font-size: 25px !important;
+        line-height: 1 !important;
+      }
+      .map-content .coverage small {
+        color: #6c7f96 !important;
+        font-size: 11px !important;
+      }
+
+      /* Centralização suave do título no topo, sem deslocar as ações. */
+      main > header > div:first-child {
+        flex: 1 1 auto !important;
+        text-align: center !important;
+        padding-left: clamp(24px, 5vw, 88px) !important;
+      }
+      main > header .header-actions {
+        flex: 0 0 auto !important;
       }
       @media (max-width: 760px) {
-        .map-content .coverage { border-top: 0 !important; }
+        .map-content .coverage {
+          border-top: 0 !important;
+          padding: 12px 0 0 !important;
+        }
+        main > header > div:first-child {
+          padding-left: 0 !important;
+          text-align: center !important;
+        }
       }
     `;
     document.head.appendChild(style);
