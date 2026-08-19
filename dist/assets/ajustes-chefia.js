@@ -3,28 +3,6 @@
 
   const originalFetch = window.fetch.bind(window);
 
-  const PROJETOS_PREMISSA_NAO_INICIADO = new Set([
-    "Iluminação Pública – Cambé (PR)",
-    "Iluminação Pública – Ibiúna (SP)",
-    "Iluminação Pública – Itaperuna (RJ)",
-    "Iluminação Pública – Itumbiara (GO)",
-    "Iluminação Pública – Juazeiro (BA)",
-    "Iluminação Pública – Mogi das Cruzes (SP)",
-    "Iluminação Pública – Natal (RN)",
-    "Iluminação Pública – Novo Hamburgo (RS)",
-    "Iluminação Pública – Pedro Leopoldo (MG)",
-    "Iluminação Pública – Santa Cruz do Capibaribe (PE)",
-    "Iluminação Pública – Santana do Livramento (RS)",
-    "Iluminação Pública – Senhor do Bonfim (BA)",
-    "Iluminação Pública – Sousa (PB)",
-    "TRENSURB: Metrô da Região Metropolitana de Porto Alegre/RS",
-    "Iluminação Pública – São José do Rio Pardo (SP)",
-    "Iluminação Pública – São João Del Rei (MG)",
-    "Iluminação Pública – Timóteo (MG)",
-    "Iluminação Pública – Três Rios (RJ)",
-    "Iluminação Pública – Valença (BA)"
-  ]);
-
   function normalizarStatus(valor) {
     const s = String(valor || "").trim().toLowerCase();
 
@@ -59,18 +37,6 @@
   function normalizarProjeto(p) {
     const x = { ...p };
     x.status = normalizarStatus(x.status);
-
-    // Premissa validada em 18/08/2026:
-    // projetos cuja ficha/PDF não traz situação atual útil/evidência de início
-    // devem aparecer como "Não iniciado".
-    // A regra só é aplicada enquanto o status normalizado ainda seria "Em andamento";
-    // se a base futura passar a informar Concluído ou Suspenso, isso prevalece.
-    if (
-      x.status === "Em andamento" &&
-      PROJETOS_PREMISSA_NAO_INICIADO.has(String(x.projeto || "").trim())
-    ) {
-      x.status = "Não iniciado";
-    }
 
     if (String(x.etapa || "").trim().toLowerCase() === "a confirmar no ppi") {
       x.etapa = "";
@@ -154,20 +120,6 @@
   }
 
   function aplicarAjustesVisuais() {
-    // Ocultar o bloco "Cobertura territorial" ao lado do mapa.
-    // Não remove o elemento do DOM: apenas o esconde para não conflitar com o React.
-    const cobertura = document.querySelector(".map-content .coverage");
-    if (cobertura) {
-      cobertura.style.display = "none";
-      cobertura.setAttribute("aria-hidden", "true");
-
-      const mapaConteudo = cobertura.closest(".map-content");
-      if (mapaConteudo) {
-        mapaConteudo.style.gridTemplateColumns = "1fr";
-        mapaConteudo.style.justifyItems = "center";
-      }
-    }
-
     // Status geral: não exibir categoria "Não informado".
     removerBarraNaoInformado(
       encontrarPainelPorTitulo("Projetos por status geral"),
@@ -223,11 +175,41 @@
     });
   }
 
+  function removerCaixaAzulDaCobertura() {
+    if (document.getElementById("ppi-cobertura-sem-caixa")) return;
+    const style = document.createElement("style");
+    style.id = "ppi-cobertura-sem-caixa";
+    style.textContent = `
+      .map-content .coverage {
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+      }
+      .map-content .coverage > div {
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+        padding: 6px 0 !important;
+      }
+      @media (max-width: 760px) {
+        .map-content .coverage { border-top: 0 !important; }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
   const obs = new MutationObserver(aplicarAjustesVisuais);
   obs.observe(document.documentElement, { childList: true, subtree: true });
 
-  window.addEventListener("DOMContentLoaded", aplicarAjustesVisuais);
-  window.addEventListener("load", aplicarAjustesVisuais);
+  removerCaixaAzulDaCobertura();
+  window.addEventListener("DOMContentLoaded", () => {
+    removerCaixaAzulDaCobertura();
+    aplicarAjustesVisuais();
+  });
+  window.addEventListener("load", () => {
+    removerCaixaAzulDaCobertura();
+    aplicarAjustesVisuais();
+  });
 
   console.info("Ajustes finais PPI carregados.");
 })();
