@@ -4,6 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawn} from 'node:child_process';
 import AdmZip from 'adm-zip';
+import {auditPortfolio} from './portfolio-audit.mjs';
 
 const ROOT=path.dirname(fileURLToPath(import.meta.url));
 const DIST=path.join(ROOT,'dist'),DATA=path.join(ROOT,'dados'),UPDATED=path.join(ROOT,'pdfs_atualizados','PDFs');
@@ -15,7 +16,26 @@ const body=async req=>{const parts=[];for await(const part of req)parts.push(par
 function pdfFromBase(name){const zip=new AdmZip(path.join(DATA,'base_ppi_144_projetos.zip'));const entry=zip.getEntries().find(e=>path.basename(e.entryName).toLocaleLowerCase()===name.toLocaleLowerCase());return entry?entry.getData():null}
 async function update(req,res){const input=await body(req),args=['update-pdfs.mjs','--catalogo',path.join(DATA,'catalogo_ppi_144_projetos.csv'),'--base',path.join(DATA,'base_ppi_144_projetos.zip'),'--pasta',path.join(ROOT,'pdfs_atualizados')];if(input.simulate!==false)args.push('--simular');const child=spawn(process.execPath,args,{cwd:ROOT,windowsHide:true});let output='';child.stdout.on('data',d=>output+=d);child.stderr.on('data',d=>output+=d);child.on('error',e=>json(res,500,{ok:false,error:e.message}));child.on('close',code=>json(res,200,{ok:code===0,output:output.trim()}))}
 async function fullUpdate(req,res){const child=spawn(process.execPath,['atualizacao-completa.mjs'],{cwd:ROOT,windowsHide:true});let output='';child.stdout.on('data',d=>output+=d);child.stderr.on('data',d=>output+=d);child.on('error',e=>json(res,500,{ok:false,error:e.message}));child.on('close',code=>json(res,200,{ok:code===0,output:output.trim()||'Atualização concluída.'}))}
-async function aiSummary(req,res){const input=await body(req),apiKey=String(input.api_key||process.env.OPENAI_API_KEY||'').trim();if(!apiKey)return json(res,400,{ok:false,error:'Informe uma chave da API OpenAI.'});const projects=JSON.parse(fs.readFileSync(path.join(DIST,'data.json'),'utf8'));const compact=projects.map(p=>Object.fromEntries(['numero','categoria','projeto','uf','regiao','etapa','status','modalidade','capex','opex','populacao','situacao'].map(k=>[k,p[k]])));try{const response=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${apiKey}`,'Content-Type':'application/json'},body:JSON.stringify({model:'gpt-5.6-luna',instructions:'Você é um analista sênior de infraestrutura pública e concessões.',input:`Analise os ${projects.length} projetos PPI e produza um briefing executivo completo, sem inventar fatos. Inclua carteira, setores, território, maturidade, finanças, lacunas, riscos, oportunidades e recomendações.\n\n${JSON.stringify(compact)}`,text:{verbosity:'medium'}})});const data=await response.json();if(!response.ok)throw new Error(data?.error?.message||'Falha na API OpenAI');const text=data.output?.flatMap(x=>x.content||[]).filter(x=>x.type==='output_text').map(x=>x.text).join('\n').trim();json(res,200,{ok:true,summary:text})}catch(e){json(res,500,{ok:false,error:e.message})}}
+async function aiSummary(req,res){
+ const input=await body(req),apiKey=String(input.api_key||process.env.OPENAI_API_KEY||'').trim();
+ if(!apiKey)return json(res,400,{ok:false,error:'Informe uma chave da API OpenAI.'});
+ const projects=JSON.parse(fs.readFileSync(path.join(DIST,'data.json'),'utf8'));
+ let portfolio;
+ try{portfolio=auditPortfolio(projects,144)}catch(e){return json(res,500,{ok:false,error:`Falha ao auditar a base: ${e.message}`})}
+ if(!portfolio.audit.complete)return json(res,422,{ok:false,error:'A base não contém exatamente 144 projetos únicos e numerados. O resumo por IA foi interrompido para evitar uma análise incompleta.',dataset_audit:portfolio.audit});
+ try{
+  const response=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${apiKey}`,'Content-Type':'application/json'},body:JSON.stringify({
+   model:'gpt-5.6-luna',
+   instructions:'Você é um analista sênior de infraestrutura pública e concessões. Use somente os dados fornecidos. Não estime valores ausentes e não omita registros do manifesto.',
+   input:`Produza um briefing executivo completo da carteira PPI. A auditoria determinística confirmou EXATAMENTE 144 projetos únicos. Abra a resposta com: "Base analisada: 144 projetos únicos". Analise carteira, setores, território, maturidade, finanças, lacunas, riscos, oportunidades e recomendações. Diferencie zero de valor não informado. As contagens e somas do bloco ESTATISTICAS são as referências oficiais; o MANIFESTO contém cada um dos 144 projetos e deve ser considerado integralmente.\n\nAUDITORIA:\n${JSON.stringify(portfolio.audit)}\n\nESTATISTICAS:\n${JSON.stringify({totals:portfolio.totals,informed:portfolio.informed,distributions:portfolio.distributions,field_gaps:portfolio.field_gaps})}\n\nMANIFESTO_144_PROJETOS:\n${JSON.stringify(portfolio.manifest)}`,
+   text:{verbosity:'medium'}
+  })});
+  const data=await response.json();if(!response.ok)throw new Error(data?.error?.message||'Falha na API OpenAI');
+  const text=data.output?.flatMap(x=>x.content||[]).filter(x=>x.type==='output_text').map(x=>x.text).join('\n').trim();
+  if(!text)return json(res,502,{ok:false,error:'A API não retornou texto para o resumo.',dataset_audit:portfolio.audit});
+  json(res,200,{ok:true,summary:text,dataset_audit:portfolio.audit});
+ }catch(e){json(res,500,{ok:false,error:e.message,dataset_audit:portfolio.audit})}
+}
 const server=http.createServer(async(req,res)=>{
  const url=new URL(req.url,'http://localhost');
  if(req.method==='POST'&&url.pathname==='/api/update')return update(req,res);
