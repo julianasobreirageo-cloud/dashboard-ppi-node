@@ -1,7 +1,7 @@
-// PROTOTIPO NA BRANCH DE VALIDACAO: nao publicar sem revisar as fichas e testar a API.
+// SIG experimental: correspondência IBGE automática não substitui auditoria das fichas.
 const $=id=>document.getElementById(id);
-const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\036f]/g,'').replace(/[^a-zA-Z0-9]+/g,' ').trim().toUpperCase();
-const safeUrl=value=>{try{const u=new URL(String(value));return u.protocol==='https:'&&(/(^|\.)ppi\.gov\.br$/).test(u.hostname)?u.href:null}catch{return null}};
+const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,' ').trim().toUpperCase();
+const safeUrl=value=>{try{const u=new URL(String(value));return u.protocol==='https:'&&/(^|\.)ppi\.gov\.br$/.test(u.hostname)?u.href:null}catch{return null}};
 const state={records:[],map:null,layer:null,selection:0};
 const setStatus=(msg,error=false)=>{$('status').textContent=msg;$('status').className=error?'error':'good'};
 function audit(projects,municipalities){
