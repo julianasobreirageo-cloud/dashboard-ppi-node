@@ -1,0 +1,29 @@
+name: SIG - verificacao preliminar
+on:
+  push:
+    branches:
+      - feature/sig-municipal-validacao
+  pull_request:
+    paths:
+      - 'sig/**'
+      - 'dist/sig.*'
+      - '.github/workflows/sig-validacao.yml'
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar sintaxe do validador
+        run: node --check sig/validar-municipios-ibge.mjs
+      - name: Verificar sintaxe do teste
+        run: node --check sig/testar-validacao.mjs
+      - name: Verificar sintaxe da interface
+        run: node --check dist/sig.js
+      - name: Executar teste isolado com dados ficticios
+        run: node sig/testar-validacao.mjs
