@@ -14,7 +14,8 @@
     "capex": 450000000,
     "opex": 900000000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/habitacao-para-locacao-social-maceio-al/"
+    "url": "https://ppi.gov.br/projetos/habitacao-para-locacao-social-maceio-al/",
+    "populacao_informada_na_planilha": 957916
   },
   {
     "numero": 147,
@@ -50,7 +51,8 @@
     "capex": 14181000,
     "opex": 17821000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-araripina-pe/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-araripina-pe/",
+    "populacao_informada_na_planilha": 85088
   },
   {
     "numero": 7,
@@ -67,7 +69,8 @@
     "capex": 18780000,
     "opex": 23663000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-aruja-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-aruja-sp/",
+    "populacao_informada_na_planilha": 86678
   },
   {
     "numero": 8,
@@ -84,7 +87,8 @@
     "capex": 34373000,
     "opex": 43310000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-atibaia-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-atibaia-sp/",
+    "populacao_informada_na_planilha": 158640
   },
   {
     "numero": 14,
@@ -101,7 +105,8 @@
     "capex": 13248000,
     "opex": 16693000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-caico-rn/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-caico-rn/",
+    "populacao_informada_na_planilha": 61146
   },
   {
     "numero": 15,
@@ -118,7 +123,8 @@
     "capex": 20083000,
     "opex": 25305000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cajamar-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cajamar-sp/",
+    "populacao_informada_na_planilha": 92689
   },
   {
     "numero": 16,
@@ -135,7 +141,8 @@
     "capex": 12300000,
     "opex": 15457000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cajazeiras-pb/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cajazeiras-pb/",
+    "populacao_informada_na_planilha": 63239
   },
   {
     "numero": 18,
@@ -152,7 +159,8 @@
     "capex": 27641250,
     "opex": 34827975,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cambe-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cambe-pr/",
+    "populacao_informada_na_planilha": 107208
   },
   {
     "numero": 19,
@@ -169,7 +177,8 @@
     "capex": 87750000,
     "opex": 110565000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-campina-grande-pb/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-campina-grande-pb/",
+    "populacao_informada_na_planilha": 419379
   },
   {
     "numero": 35,
@@ -186,7 +195,8 @@
     "capex": 15425000,
     "opex": 19435000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-fernandopolis-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-fernandopolis-sp/",
+    "populacao_informada_na_planilha": 71186
   },
   {
     "numero": 40,
@@ -203,7 +213,8 @@
     "capex": 16382000,
     "opex": 20641000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ibiuna-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ibiuna-sp/",
+    "populacao_informada_na_planilha": 75605
   },
   {
     "numero": 148,
@@ -239,7 +250,8 @@
     "capex": 21893000,
     "opex": 27585000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-itaperuna-rj/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-itaperuna-rj/",
+    "populacao_informada_na_planilha": 101041
   },
   {
     "numero": 44,
@@ -256,7 +268,8 @@
     "capex": 23394000,
     "opex": 29477000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-itumbiara-go/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-itumbiara-go/",
+    "populacao_informada_na_planilha": 107970
   },
   {
     "numero": 46,
@@ -273,7 +286,8 @@
     "capex": 48750000,
     "opex": 61425000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-juazeiro-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-juazeiro-ba/",
+    "populacao_informada_na_planilha": 237821
   },
   {
     "numero": 47,
@@ -290,7 +304,8 @@
     "capex": 20140000,
     "opex": 25376000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-lageado-rs/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-lageado-rs/",
+    "populacao_informada_na_planilha": 92951
   },
   {
     "numero": 51,
@@ -307,7 +322,8 @@
     "capex": 97826000,
     "opex": 123260000,
     "populacao": null,
-    "url": null
+    "url": null,
+    "populacao_informada_na_planilha": 451505
   },
   {
     "numero": 52,
@@ -324,7 +340,8 @@
     "capex": 162782000,
     "opex": 205105000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-natal-rn/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-natal-rn/",
+    "populacao_informada_na_planilha": 751300
   },
   {
     "numero": 56,
@@ -341,7 +358,8 @@
     "capex": 49323000,
     "opex": 62147000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-novo-hamburgo-rs/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-novo-hamburgo-rs/",
+    "populacao_informada_na_planilha": 227646
   },
   {
     "numero": 59,
@@ -358,7 +376,8 @@
     "capex": 18000000,
     "opex": 22620000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-patos-pb/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-patos-pb/",
+    "populacao_informada_na_planilha": 103165
   },
   {
     "numero": 61,
@@ -375,7 +394,8 @@
     "capex": 19463000,
     "opex": 24523000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-patrocinio-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-patrocinio-mg/",
+    "populacao_informada_na_planilha": 89826
   },
   {
     "numero": 62,
@@ -392,7 +412,8 @@
     "capex": 13558000,
     "opex": 17084000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-pedro-leopoldo-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-pedro-leopoldo-mg/",
+    "populacao_informada_na_planilha": 62580
   },
   {
     "numero": 67,
@@ -409,7 +430,8 @@
     "capex": 21288000,
     "opex": 26823000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-santa-cruz-do-capibaribe-pe/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-santa-cruz-do-capibaribe-pe/",
+    "populacao_informada_na_planilha": 98254
   },
   {
     "numero": 68,
@@ -426,7 +448,8 @@
     "capex": 18291000,
     "opex": 23047000,
     "populacao": 0,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-santana-do-livramento/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-santana-do-livramento/",
+    "populacao_informada_na_planilha": 84421
   },
   {
     "numero": 70,
@@ -443,7 +466,8 @@
     "capex": 24570000,
     "opex": 30958200,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-cristovao-se/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-cristovao-se/",
+    "populacao_informada_na_planilha": 95612
   },
   {
     "numero": 112,
@@ -460,7 +484,8 @@
     "capex": 19540000,
     "opex": 24631000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-joao-del-rei-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-joao-del-rei-mg/",
+    "populacao_informada_na_planilha": 94062
   },
   {
     "numero": 110,
@@ -477,7 +502,8 @@
     "capex": 11312000,
     "opex": 14253000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-jose-do-rio-pardo-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-jose-do-rio-pardo-sp/",
+    "populacao_informada_na_planilha": 52205
   },
   {
     "numero": 113,
@@ -494,7 +520,8 @@
     "capex": 26255000,
     "opex": 25370000,
     "populacao": 104029,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-pedro-da-aldeia-rj/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-pedro-da-aldeia-rj/",
+    "populacao_informada_na_planilha": 104029
   },
   {
     "numero": 73,
@@ -511,7 +538,8 @@
     "capex": 21060000,
     "opex": 26535600,
     "populacao": null,
-    "url": null
+    "url": null,
+    "populacao_informada_na_planilha": 74523
   },
   {
     "numero": 74,
@@ -528,7 +556,8 @@
     "capex": 13200000,
     "opex": 16588000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sousa-pb/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sousa-pb/",
+    "populacao_informada_na_planilha": 67259
   },
   {
     "numero": 115,
@@ -545,7 +574,8 @@
     "capex": 17675000,
     "opex": 22270000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-timoteo-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-timoteo-mg/",
+    "populacao_informada_na_planilha": 81579
   },
   {
     "numero": 116,
@@ -562,7 +592,8 @@
     "capex": 16975000,
     "opex": 21388000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-tres-rios-rj/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-tres-rios-rj/",
+    "populacao_informada_na_planilha": 78346
   },
   {
     "numero": 117,
@@ -579,7 +610,8 @@
     "capex": 15600000,
     "opex": 19656000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-valenca-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-valenca-ba/",
+    "populacao_informada_na_planilha": 90028
   },
   {
     "numero": 149,
@@ -615,7 +647,8 @@
     "capex": 119255428,
     "opex": 684318060,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/consorcio-cemmil-mogi-guacu-aguai-sao-jose-do-rio-pardo-mococa-vargem-grande-do-sul-espirito-santo-do-pinhal/"
+    "url": "https://ppi.gov.br/projetos/consorcio-cemmil-mogi-guacu-aguai-sao-jose-do-rio-pardo-mococa-vargem-grande-do-sul-espirito-santo-do-pinhal/",
+    "populacao_informada_na_planilha": 333360
   },
   {
     "numero": 86,
@@ -632,7 +665,8 @@
     "capex": 93582728,
     "opex": 537001560,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-intermunicipal-do-sertao-do-araripe-pernambucano-cisape-pe/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-intermunicipal-do-sertao-do-araripe-pernambucano-cisape-pe/",
+    "populacao_informada_na_planilha": 288824
   },
   {
     "numero": 87,
@@ -649,7 +683,8 @@
     "capex": 277581040,
     "opex": 1592830800,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/consorcio-cisga/"
+    "url": "https://ppi.gov.br/projetos/consorcio-cisga/",
+    "populacao_informada_na_planilha": 450322
   },
   {
     "numero": 91,
@@ -666,7 +701,8 @@
     "capex": 143965588,
     "opex": 826111260,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-publico-intermunicipal-do-agreste-pe-e-fronteiras-coniape-pe/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-publico-intermunicipal-do-agreste-pe-e-fronteiras-coniape-pe/",
+    "populacao_informada_na_planilha": 494402
   },
   {
     "numero": 85,
@@ -683,7 +719,8 @@
     "capex": 143056390,
     "opex": 820894050,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-consaude/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-consaude/",
+    "populacao_informada_na_planilha": 491751
   },
   {
     "numero": 82,
@@ -700,7 +737,8 @@
     "capex": 253966732.71,
     "opex": 862057834.37,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/consorcio-consud/"
+    "url": "https://ppi.gov.br/projetos/consorcio-consud/",
+    "populacao_informada_na_planilha": 304745
   },
   {
     "numero": 93,
@@ -717,7 +755,8 @@
     "capex": 82766222,
     "opex": 474933690,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-regional-de-saneamento-basico-central-de-minas-coresab/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-regional-de-saneamento-basico-central-de-minas-coresab/",
+    "populacao_informada_na_planilha": 313306
   },
   {
     "numero": 127,
@@ -734,7 +773,8 @@
     "capex": 123000000,
     "opex": 226000000,
     "populacao": 897938,
-    "url": "https://ppi.gov.br/projetos/locacao-social-campo-grande/"
+    "url": "https://ppi.gov.br/projetos/locacao-social-campo-grande/",
+    "populacao_informada_na_planilha": 897938
   },
   {
     "numero": 28,
@@ -751,7 +791,8 @@
     "capex": 51028900,
     "opex": 51028900,
     "populacao": 240000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-consorcio-cisamavi-sc/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-consorcio-cisamavi-sc/",
+    "populacao_informada_na_planilha": 241398
   },
   {
     "numero": 26,
@@ -768,7 +809,8 @@
     "capex": 70523000,
     "opex": 81832000,
     "populacao": 462574,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-litoral-sul-da-bahia-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-litoral-sul-da-bahia-ba/",
+    "populacao_informada_na_planilha": 462574
   },
   {
     "numero": 39,
@@ -785,7 +827,8 @@
     "capex": 37121500,
     "opex": 37121500,
     "populacao": 265070,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-gravatai-rs/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-gravatai-rs/",
+    "populacao_informada_na_planilha": 265070
   },
   {
     "numero": 118,
@@ -802,7 +845,8 @@
     "capex": 22672000,
     "opex": 26952000,
     "populacao": 134110,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-vitoria-de-santo-antao-pe/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-vitoria-de-santo-antao-pe/",
+    "populacao_informada_na_planilha": 144232
   },
   {
     "numero": 81,
@@ -819,7 +863,8 @@
     "capex": 712804968,
     "opex": 2228463046.68,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/consorcio-ci-centro-santa-maria-santiago-sao-joao-do-polesine-sao-martinho-da-serra-sao-pedro-do-sul-sao-sepe-silveira-martins-tupancireta-agudo-dilermando-de-aguiar-faxinal-do-soturno-for/"
+    "url": "https://ppi.gov.br/projetos/consorcio-ci-centro-santa-maria-santiago-sao-joao-do-polesine-sao-martinho-da-serra-sao-pedro-do-sul-sao-sepe-silveira-martins-tupancireta-agudo-dilermando-de-aguiar-faxinal-do-soturno-for/",
+    "populacao_informada_na_planilha": 551008
   },
   {
     "numero": 83,
@@ -836,7 +881,8 @@
     "capex": 251599165,
     "opex": 1063405483.2,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-publico-intermunicipal-de-desenvolvimento-sustentavel-do-triangulo-mineiro-e-alto-paranaiba-cides-mg/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-publico-intermunicipal-de-desenvolvimento-sustentavel-do-triangulo-mineiro-e-alto-paranaiba-cides-mg/",
+    "populacao_informada_na_planilha": 299943
   },
   {
     "numero": 88,
@@ -853,7 +899,8 @@
     "capex": 994397218,
     "opex": 4204985790,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-mogiana-barrinha-cravinhos-dumont-guara-ipua-jaboticabal-jardinopolis-luis-antonio-morro-agudo-pitangueiras-pradopolis-ribeirao-preto-rincao-santa-lucia-sao-da-joaquim/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-mogiana-barrinha-cravinhos-dumont-guara-ipua-jaboticabal-jardinopolis-luis-antonio-morro-agudo-pitangueiras-pradopolis-ribeirao-preto-rincao-santa-lucia-sao-da-joaquim/",
+    "populacao_informada_na_planilha": 1318002
   },
   {
     "numero": 89,
@@ -870,7 +917,8 @@
     "capex": 217673060.35,
     "opex": 1304281233.12,
     "populacao": 354288,
-    "url": "https://ppi.gov.br/projetos/consorcio-oeste-paulista-alvares-machado-caiabu-martinopolis-paraguacu-paulista-presidente-bernardes-presidente-prudente-rancharia-regente-feijo-santo-anastacio-santo-expedito/"
+    "url": "https://ppi.gov.br/projetos/consorcio-oeste-paulista-alvares-machado-caiabu-martinopolis-paraguacu-paulista-presidente-bernardes-presidente-prudente-rancharia-regente-feijo-santo-anastacio-santo-expedito/",
+    "populacao_informada_na_planilha": 337114
   },
   {
     "numero": 90,
@@ -887,7 +935,8 @@
     "capex": 546100000,
     "opex": 2480000000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/consorcio-rio-dos-sinos-ararica-campo-bom-capela-de-santana-esteio-glorinha-igrejinha-nova-hartz-nova-santa-rita-parobe-portao-riozinho-rolante-sao-franciso-de-paula-sapucaia-do-sul/"
+    "url": "https://ppi.gov.br/projetos/consorcio-rio-dos-sinos-ararica-campo-bom-capela-de-santana-esteio-glorinha-igrejinha-nova-hartz-nova-santa-rita-parobe-portao-riozinho-rolante-sao-franciso-de-paula-sapucaia-do-sul/",
+    "populacao_informada_na_planilha": 650399
   },
   {
     "numero": 97,
@@ -904,7 +953,8 @@
     "capex": 340000000,
     "opex": 753000000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-engenho-maranhao-pe-ipojuca-e-cabo-de-santo-agostinho/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-engenho-maranhao-pe-ipojuca-e-cabo-de-santo-agostinho/",
+    "populacao_informada_na_planilha": 302148
   },
   {
     "numero": 25,
@@ -921,7 +971,8 @@
     "capex": 22875000,
     "opex": 24817000,
     "populacao": 119992,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-colatina-es/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-colatina-es/",
+    "populacao_informada_na_planilha": 119992
   },
   {
     "numero": 111,
@@ -938,7 +989,8 @@
     "capex": 89413000,
     "opex": 79025000,
     "populacao": 329222,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-jose-dos-pinhais-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sao-jose-dos-pinhais-pr/",
+    "populacao_informada_na_planilha": 329222
   },
   {
     "numero": 129,
@@ -955,7 +1007,8 @@
     "capex": 266835000,
     "opex": 252249000,
     "populacao": 1488920,
-    "url": "https://ppi.gov.br/projetos/locacao-social-recife/"
+    "url": "https://ppi.gov.br/projetos/locacao-social-recife/",
+    "populacao_informada_na_planilha": 1488920
   },
   {
     "numero": 50,
@@ -972,7 +1025,8 @@
     "capex": 24207000,
     "opex": 32333000,
     "populacao": 105000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-maranguape-ce/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-maranguape-ce/",
+    "populacao_informada_na_planilha": 105093
   },
   {
     "numero": 53,
@@ -989,7 +1043,8 @@
     "capex": 32710600,
     "opex": 32710600,
     "populacao": 189937,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-de-nova-friburgo/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-de-nova-friburgo/",
+    "populacao_informada_na_planilha": 189937
   },
   {
     "numero": 84,
@@ -1006,7 +1061,8 @@
     "capex": 218659024,
     "opex": 813859535,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/consorcio-de-municipios-do-centro-oeste-mineiro-cias-abaete-araujos-bambui-biquinhas-bom-despacho-cedro-do-abaete-conceicao-do-para-corrego-danta-divinopolis-dores-do-indaia-estrela-do-in/"
+    "url": "https://ppi.gov.br/projetos/consorcio-de-municipios-do-centro-oeste-mineiro-cias-abaete-araujos-bambui-biquinhas-bom-despacho-cedro-do-abaete-conceicao-do-para-corrego-danta-divinopolis-dores-do-indaia-estrela-do-in/",
+    "populacao_informada_na_planilha": 461434
   },
   {
     "numero": 139,
@@ -1023,7 +1079,8 @@
     "capex": 248045498.56,
     "opex": 307872687.79,
     "populacao": 132,
-    "url": "https://ppi.gov.br/projetos/esgotamento-sanitario-crato-ce/"
+    "url": "https://ppi.gov.br/projetos/esgotamento-sanitario-crato-ce/",
+    "populacao_informada_na_planilha": 131050
   },
   {
     "numero": 1,
@@ -1040,7 +1097,8 @@
     "capex": 31516914.46,
     "opex": 40903964.41,
     "populacao": 153000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-alagoinhas-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-alagoinhas-ba/",
+    "populacao_informada_na_planilha": 151065
   },
   {
     "numero": 2,
@@ -1057,7 +1115,8 @@
     "capex": 83000000,
     "opex": 73000000,
     "populacao": 657013,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-aracaju-se/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-aracaju-se/",
+    "populacao_informada_na_planilha": 602757
   },
   {
     "numero": 3,
@@ -1074,7 +1133,8 @@
     "capex": 31665400,
     "opex": 31665400,
     "populacao": 200124,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-aracatuba-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-aracatuba-sp/",
+    "populacao_informada_na_planilha": 200124
   },
   {
     "numero": 4,
@@ -1091,7 +1151,8 @@
     "capex": 23666500,
     "opex": 23666500,
     "populacao": 117808,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-araguari-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-araguari-mg/",
+    "populacao_informada_na_planilha": 117808
   },
   {
     "numero": 6,
@@ -1108,7 +1169,8 @@
     "capex": 26668015.23,
     "opex": 19468873.04,
     "populacao": 96833,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ariquemes-ro/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ariquemes-ro/",
+    "populacao_informada_na_planilha": 96833
   },
   {
     "numero": 11,
@@ -1125,7 +1187,8 @@
     "capex": 23334770.85,
     "opex": 33308425.71,
     "populacao": 158423,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-barreiras-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-barreiras-ba/",
+    "populacao_informada_na_planilha": 159743
   },
   {
     "numero": 12,
@@ -1142,7 +1205,8 @@
     "capex": 160700000,
     "opex": 107900000,
     "populacao": 1492745,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-belem-pa/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-belem-pa/",
+    "populacao_informada_na_planilha": 1303389
   },
   {
     "numero": 13,
@@ -1159,7 +1223,8 @@
     "capex": 41022351,
     "opex": 40711142.2,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cachoeiro-do-itapemirim-es/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-cachoeiro-do-itapemirim-es/",
+    "populacao_informada_na_planilha": 185784
   },
   {
     "numero": 20,
@@ -1176,7 +1241,8 @@
     "capex": 171600000,
     "opex": 108235888.23,
     "populacao": 1204073,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-campinas-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-campinas-sp/",
+    "populacao_informada_na_planilha": 1138309
   },
   {
     "numero": 122,
@@ -1193,7 +1259,8 @@
     "capex": 42990837.88,
     "opex": 88684228.25,
     "populacao": 101223,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-consorcio-alto-sertao-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-consorcio-alto-sertao-ba/",
+    "populacao_informada_na_planilha": 101223
   },
   {
     "numero": 123,
@@ -1210,7 +1277,8 @@
     "capex": 28138451.81,
     "opex": 22017664.07,
     "populacao": 156613,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-consorcio-conder-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-consorcio-conder-pr/",
+    "populacao_informada_na_planilha": 113724
   },
   {
     "numero": 29,
@@ -1227,7 +1295,8 @@
     "capex": 17404054.55,
     "opex": 40752321.65,
     "populacao": 111435,
-    "url": "https://www.corumba.ms.gov.br/ppp-editais/"
+    "url": "https://www.corumba.ms.gov.br/ppp-editais/",
+    "populacao_informada_na_planilha": 96268
   },
   {
     "numero": 33,
@@ -1244,7 +1313,8 @@
     "capex": 41473450,
     "opex": 47905000,
     "populacao": 148873,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-fazenda-rio-grande-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-fazenda-rio-grande-pr/",
+    "populacao_informada_na_planilha": 148873
   },
   {
     "numero": 34,
@@ -1261,7 +1331,8 @@
     "capex": 80750000,
     "opex": 78790000,
     "populacao": 624107,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-feira-de-santana-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-feira-de-santana-ba/",
+    "populacao_informada_na_planilha": 616279
   },
   {
     "numero": 36,
@@ -1278,7 +1349,8 @@
     "capex": 62371000,
     "opex": 55145000,
     "populacao": 285415,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-foz-do-iguacu-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-foz-do-iguacu-pr/",
+    "populacao_informada_na_planilha": 285415
   },
   {
     "numero": 37,
@@ -1295,7 +1367,8 @@
     "capex": 19906000,
     "opex": 29628000,
     "populacao": 96666,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-francisco-beltrao-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-francisco-beltrao-pr/",
+    "populacao_informada_na_planilha": 96666
   },
   {
     "numero": 38,
@@ -1312,7 +1385,8 @@
     "capex": 13600000,
     "opex": 23500000,
     "populacao": 154489,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-franco-da-rocha-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-franco-da-rocha-sp/",
+    "populacao_informada_na_planilha": 144849
   },
   {
     "numero": 42,
@@ -1329,7 +1403,8 @@
     "capex": 450000,
     "opex": 460000,
     "populacao": 104351,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-itanhaem-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-itanhaem-sp/",
+    "populacao_informada_na_planilha": 112476
   },
   {
     "numero": 55,
@@ -1346,7 +1421,8 @@
     "capex": 29940000,
     "opex": 28470000,
     "populacao": 96157,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-nova-lima-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-nova-lima-mg/",
+    "populacao_informada_na_planilha": 111697
   },
   {
     "numero": 57,
@@ -1363,7 +1439,8 @@
     "capex": 31000000,
     "opex": 40000000,
     "populacao": 393115,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-olinda-pe/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-olinda-pe/",
+    "populacao_informada_na_planilha": 349976
   },
   {
     "numero": 60,
@@ -1380,7 +1457,8 @@
     "capex": 28800100.72,
     "opex": 35526285.42,
     "populacao": 153585,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-patos-de-minas-mg/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-patos-de-minas-mg/",
+    "populacao_informada_na_planilha": 159235
   },
   {
     "numero": 64,
@@ -1397,7 +1475,8 @@
     "capex": 59411000,
     "opex": 54365000,
     "populacao": 358838,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-ponta-grossa-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-ponta-grossa-pr/",
+    "populacao_informada_na_planilha": 358367
   },
   {
     "numero": 66,
@@ -1414,7 +1493,8 @@
     "capex": 103020000,
     "opex": 99000000,
     "populacao": 720116,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-ribeirao-preto-sp/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-ribeirao-preto-sp/",
+    "populacao_informada_na_planilha": 698259
   },
   {
     "numero": 69,
@@ -1431,7 +1511,8 @@
     "capex": 13634000,
     "opex": 32781000,
     "populacao": 103055,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-santo-antonio-de-jesus-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-santo-antonio-de-jesus-ba/",
+    "populacao_informada_na_planilha": 103055
   },
   {
     "numero": 71,
@@ -1448,7 +1529,8 @@
     "capex": 16500000,
     "opex": 22900000,
     "populacao": 141075,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sapucaia-do-sul-rs/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-sapucaia-do-sul-rs/",
+    "populacao_informada_na_planilha": 132107
   },
   {
     "numero": 124,
@@ -1465,7 +1547,8 @@
     "capex": 36328080,
     "opex": 42094000,
     "populacao": 145223,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-teixeira-de-freitas-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-teixeira-de-freitas-ba/",
+    "populacao_informada_na_planilha": 145223
   },
   {
     "numero": 125,
@@ -1482,7 +1565,8 @@
     "capex": 36386000,
     "opex": 41797328,
     "populacao": 142645,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-toledo-pr/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-toledo-pr/",
+    "populacao_informada_na_planilha": 150470
   },
   {
     "numero": 143,
@@ -1499,7 +1583,8 @@
     "capex": 116404295,
     "opex": 697696301,
     "populacao": 353579,
-    "url": "https://ppi.gov.br/projetos/residuos-solidos-urbanos-rsu-consorcio-municipal-comares-ce-altaneira-barbalha-caririacu-crato-farias-brito-jardim-missao-velha-nova-olinda-e-santana-do-cariri/"
+    "url": "https://ppi.gov.br/projetos/residuos-solidos-urbanos-rsu-consorcio-municipal-comares-ce-altaneira-barbalha-caririacu-crato-farias-brito-jardim-missao-velha-nova-olinda-e-santana-do-cariri/",
+    "populacao_informada_na_planilha": 353988
   },
   {
     "numero": 142,
@@ -1516,7 +1601,8 @@
     "capex": 164722511.63,
     "opex": 943956493.01,
     "populacao": 433288,
-    "url": "https://ppi.gov.br/projetos/residuos-solidos-urbanos-rsu-consorcio-municipal-convale-mg-uberaba-conceicao-das-alagoas-sacramento-delta-planura-campo-florido-verissimo-e-agua-comprida/"
+    "url": "https://ppi.gov.br/projetos/residuos-solidos-urbanos-rsu-consorcio-municipal-convale-mg-uberaba-conceicao-das-alagoas-sacramento-delta-planura-campo-florido-verissimo-e-agua-comprida/",
+    "populacao_informada_na_planilha": 428521
   },
   {
     "numero": 137,
@@ -1533,7 +1619,8 @@
     "capex": 49330812.06,
     "opex": 298700954.11,
     "populacao": 20645,
-    "url": "https://ppi.gov.br/projetos/servicos-de-residuos-solidos-urbanos-agua-e-esgotamento-sanitario-municipio-de-sao-simao-go/"
+    "url": "https://ppi.gov.br/projetos/servicos-de-residuos-solidos-urbanos-agua-e-esgotamento-sanitario-municipio-de-sao-simao-go/",
+    "populacao_informada_na_planilha": 17020
   },
   {
     "numero": 98,
@@ -1550,7 +1637,8 @@
     "capex": 320000000,
     "opex": 1300000000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/esgotamento-sanitario-volta-redonda-rj/"
+    "url": "https://ppi.gov.br/projetos/esgotamento-sanitario-volta-redonda-rj/",
+    "populacao_informada_na_planilha": 261584
   },
   {
     "numero": 17,
@@ -1567,7 +1655,8 @@
     "capex": 63746851.48,
     "opex": 47000000,
     "populacao": 299579,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-camacari-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-camacari-ba/",
+    "populacao_informada_na_planilha": 299579
   },
   {
     "numero": 27,
@@ -1584,7 +1673,8 @@
     "capex": 21875360,
     "opex": 21875360,
     "populacao": 168272,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-consorcio-pajeu-betania-brejinho-ingazeira-serra-talhada-sertania-solidao-e-triunfo/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-consorcio-pajeu-betania-brejinho-ingazeira-serra-talhada-sertania-solidao-e-triunfo/",
+    "populacao_informada_na_planilha": 168674
   },
   {
     "numero": 65,
@@ -1601,7 +1691,8 @@
     "capex": 23806900,
     "opex": 23806900,
     "populacao": 167955,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-porto-seguro-ba/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-porto-seguro-ba/",
+    "populacao_informada_na_planilha": 167955
   },
   {
     "numero": 109,
@@ -1618,7 +1709,8 @@
     "capex": 13414700,
     "opex": 13414700,
     "populacao": 65418,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-sao-felix-do-xingu-pa/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-sao-felix-do-xingu-pa/",
+    "populacao_informada_na_planilha": 65418
   },
   {
     "numero": 72,
@@ -1635,7 +1727,8 @@
     "capex": 23279100,
     "opex": 23279100,
     "populacao": 89559,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-saquarema-rj/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-saquarema-rj/",
+    "populacao_informada_na_planilha": 89559
   },
   {
     "numero": 114,
@@ -1652,7 +1745,8 @@
     "capex": 47739900,
     "opex": 47739900,
     "populacao": 174465,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-timon-ma/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-timon-ma/",
+    "populacao_informada_na_planilha": 174465
   },
   {
     "numero": 92,
@@ -1669,7 +1763,8 @@
     "capex": 76801752,
     "opex": 440708040,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-publico-dos-municipios-da-mata-sul-comsul-pe/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-publico-dos-municipios-da-mata-sul-comsul-pe/",
+    "populacao_informada_na_planilha": 217834
   },
   {
     "numero": 94,
@@ -1686,7 +1781,8 @@
     "capex": 94259188,
     "opex": 540883260,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/rsu-consorcio-sustentavel-do-territorio-do-sao-francisco-constesf-ba/"
+    "url": "https://ppi.gov.br/projetos/rsu-consorcio-sustentavel-do-territorio-do-sao-francisco-constesf-ba/",
+    "populacao_informada_na_planilha": 317282
   },
   {
     "numero": 130,
@@ -1703,7 +1799,8 @@
     "capex": null,
     "opex": null,
     "populacao": 749,
-    "url": "https://ppi.gov.br/projetos/habitacao-para-locacao-social-santo-andre-sp/"
+    "url": "https://ppi.gov.br/projetos/habitacao-para-locacao-social-santo-andre-sp/",
+    "populacao_informada_na_planilha": 748919
   },
   {
     "numero": 9,
@@ -1720,7 +1817,8 @@
     "capex": null,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-barbalha-ce/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-barbalha-ce/",
+    "populacao_informada_na_planilha": 75033
   },
   {
     "numero": 145,
@@ -1775,7 +1873,8 @@
     "capex": 2600000000,
     "opex": null,
     "populacao": 1448000,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-bloco-a-estado-de-alagoas-rm-alagoas/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-bloco-a-estado-de-alagoas-rm-alagoas/",
+    "populacao_informada_na_planilha": 1008000
   },
   {
     "numero": 133,
@@ -1792,7 +1891,8 @@
     "capex": 1920000000,
     "opex": null,
     "populacao": 759900,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-bloco-b-estado-de-alagoas-zona-da-mata-e-agreste/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-bloco-b-estado-de-alagoas-zona-da-mata-e-agreste/",
+    "populacao_informada_na_planilha": 581000
   },
   {
     "numero": 150,
@@ -1828,7 +1928,8 @@
     "capex": 3000000000,
     "opex": null,
     "populacao": 734000,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-amapa/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-amapa/",
+    "populacao_informada_na_planilha": 683000
   },
   {
     "numero": 95,
@@ -1845,7 +1946,8 @@
     "capex": 693000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/residos-solidos-estado-do-amapa/"
+    "url": "https://ppi.gov.br/projetos/residos-solidos-estado-do-amapa/",
+    "populacao_informada_na_planilha": 773000
   },
   {
     "numero": 96,
@@ -1862,7 +1964,8 @@
     "capex": 2157038000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgotos-arapiraca-bloco-d-alagoas/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgotos-arapiraca-bloco-d-alagoas/",
+    "populacao_informada_na_planilha": 550000
   },
   {
     "numero": 21,
@@ -1879,7 +1982,8 @@
     "capex": 109537530,
     "opex": 117710000,
     "populacao": 348000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-canoas-rs/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-canoas-rs/",
+    "populacao_informada_na_planilha": 348000
   },
   {
     "numero": 22,
@@ -1896,7 +2000,8 @@
     "capex": 105000000,
     "opex": 3600000,
     "populacao": 365000,
-    "url": null
+    "url": null,
+    "populacao_informada_na_planilha": 365000
   },
   {
     "numero": 119,
@@ -1913,7 +2018,8 @@
     "capex": 327277000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-casal-al/"
+    "url": "https://ppi.gov.br/projetos/saneamento-casal-al/",
+    "populacao_informada_na_planilha": 2485000
   },
   {
     "numero": 24,
@@ -1930,7 +2036,8 @@
     "capex": 124067000,
     "opex": 124000000,
     "populacao": 523000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-caxias-do-sul-rs/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-caxias-do-sul-rs/",
+    "populacao_informada_na_planilha": 523000
   },
   {
     "numero": 77,
@@ -1947,7 +2054,8 @@
     "capex": 3810000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/wp-content/uploads/2022/11/resolucao-n-132-de-10-de-junho-de-2020-cbtu-minas-gerais.pdf"
+    "url": "https://ppi.gov.br/wp-content/uploads/2022/11/resolucao-n-132-de-10-de-junho-de-2020-cbtu-minas-gerais.pdf",
+    "populacao_informada_na_planilha": null
   },
   {
     "numero": 76,
@@ -1964,7 +2072,8 @@
     "capex": 3471000000,
     "opex": 1644000000,
     "populacao": 4000000,
-    "url": "https://ppi.gov.br/projetos/cbtu-companhia-brasileira-de-trens-urbanos-4-pracas-al-pb-pe-e-rn/"
+    "url": "https://ppi.gov.br/projetos/cbtu-companhia-brasileira-de-trens-urbanos-4-pracas-al-pb-pe-e-rn/",
+    "populacao_informada_na_planilha": null
   },
   {
     "numero": 138,
@@ -1981,7 +2090,8 @@
     "capex": 6217380000,
     "opex": null,
     "populacao": 4238000,
-    "url": "https://ppi.gov.br/projetos/tratamento-de-esgoto-estado-do-ceara/"
+    "url": "https://ppi.gov.br/projetos/tratamento-de-esgoto-estado-do-ceara/",
+    "populacao_informada_na_planilha": 1396000
   },
   {
     "numero": 141,
@@ -1998,7 +2108,8 @@
     "capex": 11126000000,
     "opex": null,
     "populacao": 6000000,
-    "url": "https://ppi.gov.br/projetos/corsan-estado-do-rio-grande-do-sul/"
+    "url": "https://ppi.gov.br/projetos/corsan-estado-do-rio-grande-do-sul/",
+    "populacao_informada_na_planilha": 4525000
   },
   {
     "numero": 32,
@@ -2015,7 +2126,8 @@
     "capex": 329000000,
     "opex": 12400000,
     "populacao": 1900000,
-    "url": null
+    "url": null,
+    "populacao_informada_na_planilha": 1963000
   },
   {
     "numero": 144,
@@ -2032,7 +2144,8 @@
     "capex": 600000000,
     "opex": null,
     "populacao": 423000,
-    "url": "https://ppi.gov.br/projetos/tratamento-de-esgoto-municipio-de-cariacica-es/"
+    "url": "https://ppi.gov.br/projetos/tratamento-de-esgoto-municipio-de-cariacica-es/",
+    "populacao_informada_na_planilha": 253000
   },
   {
     "numero": 100,
@@ -2049,7 +2162,8 @@
     "capex": 6200000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-goias/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-goias/",
+    "populacao_informada_na_planilha": 1475000
   },
   {
     "numero": 45,
@@ -2066,7 +2180,8 @@
     "capex": 84000000,
     "opex": null,
     "populacao": 707000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-jaboatao-dos-guararapes-pe/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-jaboatao-dos-guararapes-pe/",
+    "populacao_informada_na_planilha": 707000
   },
   {
     "numero": 41,
@@ -2083,7 +2198,8 @@
     "capex": 179152000,
     "opex": 146000000,
     "populacao": 616317,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-joinville/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-ip-joinville/",
+    "populacao_informada_na_planilha": 597000
   },
   {
     "numero": 151,
@@ -2119,7 +2235,8 @@
     "capex": 18700000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-do-maranhao/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-do-maranhao/",
+    "populacao_informada_na_planilha": 4854000
   },
   {
     "numero": 120,
@@ -2136,7 +2253,8 @@
     "capex": 3590000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-do-para-bloco-c/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-do-para-bloco-c/",
+    "populacao_informada_na_planilha": 624000
   },
   {
     "numero": 152,
@@ -2172,7 +2290,8 @@
     "capex": 3003019000,
     "opex": 2816290000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-da-paraiba/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-da-paraiba/",
+    "populacao_informada_na_planilha": 1562000
   },
   {
     "numero": 135,
@@ -2189,7 +2308,8 @@
     "capex": 2938730000,
     "opex": 7560224000,
     "populacao": 9534000,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-pernambuco/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-pernambuco/",
+    "populacao_informada_na_planilha": 879000
   },
   {
     "numero": 136,
@@ -2206,7 +2326,8 @@
     "capex": 15340000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-pernambuco-bloco-2/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-pernambuco-bloco-2/",
+    "populacao_informada_na_planilha": 7100000
   },
   {
     "numero": 63,
@@ -2223,7 +2344,8 @@
     "capex": 94000000,
     "opex": null,
     "populacao": 350000,
-    "url": null
+    "url": null,
+    "populacao_informada_na_planilha": 354000
   },
   {
     "numero": 153,
@@ -2259,7 +2381,8 @@
     "capex": 2300000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-municipio-de-porto-alegre-rs/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-municipio-de-porto-alegre-rs/",
+    "populacao_informada_na_planilha": 684000
   },
   {
     "numero": 140,
@@ -2276,7 +2399,8 @@
     "capex": 4700000000,
     "opex": null,
     "populacao": 2585600,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-rio-de-janeiro-cedae-bloco-3/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-rio-de-janeiro-cedae-bloco-3/",
+    "populacao_informada_na_planilha": 611000
   },
   {
     "numero": 131,
@@ -2293,7 +2417,8 @@
     "capex": 29700000000,
     "opex": null,
     "populacao": 11042000,
-    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-rio-de-janeiro-blocos-1-2-e-4/"
+    "url": "https://ppi.gov.br/projetos/distribuicao-de-agua-e-tratamento-de-esgoto-estado-do-rio-de-janeiro-blocos-1-2-e-4/",
+    "populacao_informada_na_planilha": 7032000
   },
   {
     "numero": 101,
@@ -2310,7 +2435,8 @@
     "capex": 4224328000,
     "opex": 5057663000,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-rondonia/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-rondonia/",
+    "populacao_informada_na_planilha": 1074000
   },
   {
     "numero": 79,
@@ -2327,7 +2453,8 @@
     "capex": 6840000000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/residuos-solidos-estado-do-goias/"
+    "url": "https://ppi.gov.br/projetos/residuos-solidos-estado-do-goias/",
+    "populacao_informada_na_planilha": 7056000
   },
   {
     "numero": 154,
@@ -2363,7 +2490,8 @@
     "capex": 4082252000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-do-rio-grande-do-norte/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-do-rio-grande-do-norte/",
+    "populacao_informada_na_planilha": 1669000
   },
   {
     "numero": 102,
@@ -2380,7 +2508,8 @@
     "capex": 6313319000,
     "opex": null,
     "populacao": null,
-    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-sergipe/"
+    "url": "https://ppi.gov.br/projetos/saneamento-basico-estado-de-sergipe/",
+    "populacao_informada_na_planilha": 1472000
   },
   {
     "numero": 155,
@@ -2416,7 +2545,8 @@
     "capex": 1247000000,
     "opex": null,
     "populacao": 4400000,
-    "url": "https://ppi.gov.br/projetos/trensurb-empresa-de-trens-urbanos-de-porto-alegre/"
+    "url": "https://ppi.gov.br/projetos/trensurb-empresa-de-trens-urbanos-de-porto-alegre/",
+    "populacao_informada_na_planilha": null
   },
   {
     "numero": 126,
@@ -2433,6 +2563,7 @@
     "capex": 112000000,
     "opex": null,
     "populacao": 501000,
-    "url": "https://ppi.gov.br/projetos/iluminacao-publica-vila-velha-es/"
+    "url": "https://ppi.gov.br/projetos/iluminacao-publica-vila-velha-es/",
+    "populacao_informada_na_planilha": 501000
   }
 ]
